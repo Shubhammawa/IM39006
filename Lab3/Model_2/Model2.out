@@ -1,0 +1,982 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .39326     .01802     5.6705E-04 2.6458       2031    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2031    
+Entity 1.WaitTime                           1.3961     .40251     .00000     8.3089       2031    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2031    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2031    
+Entity 1.TotalTime                          1.7894     .40787     .00125     8.5232       2031    
+Job Processing.Queue.WaitingTime            1.3957     .40251     .00000     8.3089       2032    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.6355     .91526     .00000     22.000     2.0000    
+Machine.NumberBusy                          .79891     .03593     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .79891     .03593     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          2.8366     .88948     .00000     21.000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2033.0    
+Entity 1.NumberOut                          2031.0    
+Machine.NumberSeized                        2032.0    
+Machine.ScheduledUtilization                .79891    
+System.NumberOut                            2031.0    
+
+Beginning replication 2 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 2 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .40394     .02044     2.1913E-04 3.7717       2043    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2043    
+Entity 1.WaitTime                           2.4851     (Corr)     .00000     15.761       2043    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2043    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2043    
+Entity 1.TotalTime                          2.8890     (Corr)     .00222     16.140       2043    
+Job Processing.Queue.WaitingTime            2.4839     (Corr)     .00000     15.761       2044    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.9025     (Corr)     .00000     46.000     1.0000    
+Machine.NumberBusy                          .82529     (Corr)     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .82529     (Corr)     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          5.0772     (Corr)     .00000     45.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2044.0    
+Entity 1.NumberOut                          2043.0    
+Machine.NumberSeized                        2044.0    
+Machine.ScheduledUtilization                .82529    
+System.NumberOut                            2043.0    
+
+Beginning replication 3 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 3 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .39771     .01695     1.4312E-04 2.3091       2009    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2009    
+Entity 1.WaitTime                           1.3653     .29794     .00000     7.4384       2009    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2009    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2009    
+Entity 1.TotalTime                          1.7630     .31056     8.1089E-04 8.1541       2009    
+Job Processing.Queue.WaitingTime            1.3653     .29794     .00000     7.4384       2010    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.5455     .68377     .00000     18.000     5.0000    
+Machine.NumberBusy                          .79919     .03954     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .79919     .03954     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          2.7463     .64919     .00000     17.000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2014.0    
+Entity 1.NumberOut                          2009.0    
+Machine.NumberSeized                        2010.0    
+Machine.ScheduledUtilization                .79919    
+System.NumberOut                            2009.0    
+
+Beginning replication 4 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 4 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .38498     .01579     1.1770E-04 4.0285       2018    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2018    
+Entity 1.WaitTime                           1.0873     .20659     .00000     5.7693       2018    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2018    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2018    
+Entity 1.TotalTime                          1.4723     .21123     1.2828E-04 6.1653       2018    
+Job Processing.Queue.WaitingTime            1.0869     .20659     .00000     5.7693       2019    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.9721     .53694     .00000     15.000     2.0000    
+Machine.NumberBusy                          .77729     .04252     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .77729     .04252     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          2.1948     .50448     .00000     14.000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2020.0    
+Entity 1.NumberOut                          2018.0    
+Machine.NumberSeized                        2019.0    
+Machine.ScheduledUtilization                .77729    
+System.NumberOut                            2018.0    
+
+Beginning replication 5 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 5 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .39697     .02093     4.0725E-05 2.6201       2016    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2016    
+Entity 1.WaitTime                           1.5195     .37577     .00000     8.2081       2016    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2016    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2016    
+Entity 1.TotalTime                          1.9165     .38875     .00200     8.5052       2016    
+Job Processing.Queue.WaitingTime            1.5191     .37577     .00000     8.2081       2017    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.8692     .89130     .00000     19.000     7.0000    
+Machine.NumberBusy                          .80133     .04997     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .80133     .04997     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          3.0679     .84587     .00000     18.000     6.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2023.0    
+Entity 1.NumberOut                          2016.0    
+Machine.NumberSeized                        2017.0    
+Machine.ScheduledUtilization                .80133    
+System.NumberOut                            2016.0    
+
+Beginning replication 6 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 6 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .38342     .01619     8.5028E-04 2.7000       2108    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2108    
+Entity 1.WaitTime                           1.5226     .41746     .00000     9.1639       2108    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2108    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2108    
+Entity 1.TotalTime                          1.9060     .42427     .00135     9.6962       2108    
+Job Processing.Queue.WaitingTime            1.5224     .41746     .00000     9.1639       2109    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.0215     1.0020     .00000     21.000     5.0000    
+Machine.NumberBusy                          .80837     .04173     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .80837     .04173     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          3.2131     .96791     .00000     20.000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2113.0    
+Entity 1.NumberOut                          2108.0    
+Machine.NumberSeized                        2109.0    
+Machine.ScheduledUtilization                .80837    
+System.NumberOut                            2108.0    
+
+Beginning replication 7 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 7 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .39945     .01550     7.9615E-06 3.0657       1940    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1940    
+Entity 1.WaitTime                           1.1887     .41125     .00000     9.5267       1940    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       1940    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1940    
+Entity 1.TotalTime                          1.5882     .41860     .00111     9.7067       1940    
+Job Processing.Queue.WaitingTime            1.1892     .41125     .00000     9.5267       1941    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.0897     .70426     .00000     24.000     8.0000    
+Machine.NumberBusy                          .77534     .03751     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .77534     .03751     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          2.3143     .68013     .00000     23.000     7.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1948.0    
+Entity 1.NumberOut                          1940.0    
+Machine.NumberSeized                        1941.0    
+Machine.ScheduledUtilization                .77534    
+System.NumberOut                            1940.0    
+
+Beginning replication 8 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 8 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .40293     .01955     1.1132E-04 3.2095       1934    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1934    
+Entity 1.WaitTime                           1.0525     .21798     .00000     7.0446       1934    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       1934    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1934    
+Entity 1.TotalTime                          1.4554     .23193     3.3500E-04 7.2978       1934    
+Job Processing.Queue.WaitingTime            1.0525     .21798     .00000     7.0446       1934    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.8148     .49552     .00000     15.000     .00000    
+Machine.NumberBusy                          .77926     .03999     .00000     1.0000     .00000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .77926     .03999     .00000     1.0000     .00000    
+Job Processing.Queue.NumberInQueue          2.0355     .46151     .00000     14.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1934.0    
+Entity 1.NumberOut                          1934.0    
+Machine.NumberSeized                        1934.0    
+Machine.ScheduledUtilization                .77926    
+System.NumberOut                            1934.0    
+
+Beginning replication 9 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 9 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .38465     .01538     5.9875E-04 3.0449       1958    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1958    
+Entity 1.WaitTime                           1.0994     .31370     .00000     7.2421       1958    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       1958    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1958    
+Entity 1.TotalTime                          1.4840     .32341     .00157     7.8798       1958    
+Job Processing.Queue.WaitingTime            1.0989     .31370     .00000     7.2421       1959    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.9062     .70047     .00000     17.000     1.0000    
+Machine.NumberBusy                          .75349     .04154     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .75349     .04154     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          2.1527     .66702     .00000     16.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1959.0    
+Entity 1.NumberOut                          1958.0    
+Machine.NumberSeized                        1959.0    
+Machine.ScheduledUtilization                .75349    
+System.NumberOut                            1958.0    
+
+Beginning replication 10 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 10 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .40461     .01522     1.3871E-04 4.6048       2004    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2004    
+Entity 1.WaitTime                           1.9348     (Corr)     .00000     10.942       2004    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2004    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2004    
+Entity 1.TotalTime                          2.3394     (Corr)     8.8832E-04 11.315       2004    
+Job Processing.Queue.WaitingTime            1.9344     (Corr)     .00000     10.942       2005    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.6930     1.6128     .00000     28.000     5.0000    
+Machine.NumberBusy                          .81142     .04401     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .81142     .04401     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          3.8816     1.5799     .00000     27.000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2009.0    
+Entity 1.NumberOut                          2004.0    
+Machine.NumberSeized                        2005.0    
+Machine.ScheduledUtilization                .81142    
+System.NumberOut                            2004.0    
+
+Beginning replication 11 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 11 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .39716     .01563     1.3345E-04 2.4087       1936    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1936    
+Entity 1.WaitTime                           1.0720     .25838     .00000     8.5192       1936    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       1936    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1936    
+Entity 1.TotalTime                          1.4692     .26516     .00132     9.5026       1936    
+Job Processing.Queue.WaitingTime            1.0714     .25838     .00000     8.5192       1937    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.8443     .51277     .00000     15.000     1.0000    
+Machine.NumberBusy                          .76891     .04709     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .76891     .04709     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          2.0754     .48065     .00000     14.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1937.0    
+Entity 1.NumberOut                          1936.0    
+Machine.NumberSeized                        1937.0    
+Machine.ScheduledUtilization                .76891    
+System.NumberOut                            1936.0    
+
+Beginning replication 12 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 12 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .39301     .01581     2.1793E-04 3.4507       1975    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1975    
+Entity 1.WaitTime                           1.2378     .46570     .00000     8.9819       1975    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       1975    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1975    
+Entity 1.TotalTime                          1.6308     .47029     .00103     9.0786       1975    
+Job Processing.Queue.WaitingTime            1.2378     .46570     .00000     8.9819       1975    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.2209     1.0571     .00000     28.000     .00000    
+Machine.NumberBusy                          .77620     .03965     .00000     1.0000     .00000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .77620     .03965     .00000     1.0000     .00000    
+Job Processing.Queue.NumberInQueue          2.4447     1.0312     .00000     27.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1975.0    
+Entity 1.NumberOut                          1975.0    
+Machine.NumberSeized                        1975.0    
+Machine.ScheduledUtilization                .77620    
+System.NumberOut                            1975.0    
+
+Beginning replication 13 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 13 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .41097     .02078     2.7910E-04 3.0034       2087    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2087    
+Entity 1.WaitTime                           2.4362     (Corr)     .00000     12.623       2087    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2087    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2087    
+Entity 1.TotalTime                          2.8471     (Corr)     4.3243E-04 13.136       2087    
+Job Processing.Queue.WaitingTime            2.4350     (Corr)     .00000     12.623       2088    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.9422     (Corr)     .00000     27.000     1.0000    
+Machine.NumberBusy                          .85791     (Corr)     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .85791     (Corr)     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          5.0843     (Corr)     .00000     26.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2088.0    
+Entity 1.NumberOut                          2087.0    
+Machine.NumberSeized                        2088.0    
+Machine.ScheduledUtilization                .85791    
+System.NumberOut                            2087.0    
+
+Beginning replication 14 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 14 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .40845     .01541     2.2236E-04 2.9688       1949    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1949    
+Entity 1.WaitTime                           1.3758     .50168     .00000     9.6508       1949    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       1949    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1949    
+Entity 1.TotalTime                          1.7843     .50766     .00211     10.108       1949    
+Job Processing.Queue.WaitingTime            1.3764     .50168     .00000     9.6508       1950    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.4865     1.0390     .00000     27.000     4.0000    
+Machine.NumberBusy                          .79610     .03314     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .79610     .03314     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          2.6904     1.0160     .00000     26.000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1953.0    
+Entity 1.NumberOut                          1949.0    
+Machine.NumberSeized                        1950.0    
+Machine.ScheduledUtilization                .79610    
+System.NumberOut                            1949.0    
+
+Beginning replication 15 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 15 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .39489     .01853     2.9627E-04 3.1812       2006    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2006    
+Entity 1.WaitTime                           1.6890     (Corr)     .00000     10.501       2006    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2006    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2006    
+Entity 1.TotalTime                          2.0839     (Corr)     .00232     10.691       2006    
+Job Processing.Queue.WaitingTime            1.6885     (Corr)     .00000     10.501       2007    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.1811     (Corr)     .00000     23.000     1.0000    
+Machine.NumberBusy                          .79226     .04613     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .79226     .04613     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          3.3888     (Corr)     .00000     22.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2007.0    
+Entity 1.NumberOut                          2006.0    
+Machine.NumberSeized                        2007.0    
+Machine.ScheduledUtilization                .79226    
+System.NumberOut                            2006.0    
+
+Beginning replication 16 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 16 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .40371     .01760     6.9844E-04 3.4065       1945    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1945    
+Entity 1.WaitTime                           1.3614     .54492     .00000     11.850       1945    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       1945    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1945    
+Entity 1.TotalTime                          1.7651     .55491     .00163     12.154       1945    
+Job Processing.Queue.WaitingTime            1.3609     .54492     .00000     11.850       1946    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.4341     1.1378     .00000     23.000     1.0000    
+Machine.NumberBusy                          .78582     .04095     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .78582     .04095     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          2.6483     1.1104     .00000     22.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1946.0    
+Entity 1.NumberOut                          1945.0    
+Machine.NumberSeized                        1946.0    
+Machine.ScheduledUtilization                .78582    
+System.NumberOut                            1945.0    
+
+Beginning replication 17 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 17 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .40695     .01511     5.0997E-04 2.7702       1996    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1996    
+Entity 1.WaitTime                           1.3274     .28875     .00000     8.9616       1996    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       1996    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1996    
+Entity 1.TotalTime                          1.7343     .29743     6.1173E-04 9.2122       1996    
+Job Processing.Queue.WaitingTime            1.3272     .28875     .00000     8.9616       1997    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.4636     .73181     .00000     20.000     3.0000    
+Machine.NumberBusy                          .81238     .04100     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .81238     .04100     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          2.6512     .70175     .00000     19.000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1999.0    
+Entity 1.NumberOut                          1996.0    
+Machine.NumberSeized                        1997.0    
+Machine.ScheduledUtilization                .81238    
+System.NumberOut                            1996.0    
+
+Beginning replication 18 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 18 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .41316     .01911     1.3404E-05 4.2229       2035    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2035    
+Entity 1.WaitTime                           2.2970     (Corr)     .00000     10.190       2035    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2035    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2035    
+Entity 1.TotalTime                          2.7102     (Corr)     1.4325E-04 10.627       2035    
+Job Processing.Queue.WaitingTime            2.2973     (Corr)     .00000     10.190       2036    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.5271     1.5575     .00000     27.000     7.0000    
+Machine.NumberBusy                          .84087     .05078     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .84087     .05078     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          4.6863     1.5165     .00000     26.000     6.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2042.0    
+Entity 1.NumberOut                          2035.0    
+Machine.NumberSeized                        2036.0    
+Machine.ScheduledUtilization                .84087    
+System.NumberOut                            2035.0    
+
+Beginning replication 19 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 19 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .39854     (Corr)     3.2401E-04 2.8540       2024    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2024    
+Entity 1.WaitTime                           1.3484     .30570     .00000     6.6486       2024    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2024    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2024    
+Entity 1.TotalTime                          1.7469     .31402     5.7794E-04 6.8868       2024    
+Job Processing.Queue.WaitingTime            1.3503     .30570     .00000     6.6486       2025    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.5661     .72151     .00000     15.000     10.000    
+Machine.NumberBusy                          .80680     .04395     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .80680     .04395     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          2.7593     .68545     .00000     14.000     9.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2034.0    
+Entity 1.NumberOut                          2024.0    
+Machine.NumberSeized                        2025.0    
+Machine.ScheduledUtilization                .80680    
+System.NumberOut                            2024.0    
+
+Beginning replication 20 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 20 of 20
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .40248     .02018     2.8914E-04 4.1607       2032    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       2032    
+Entity 1.WaitTime                           2.0816     (Corr)     .00000     11.596       2032    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       2032    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       2032    
+Entity 1.TotalTime                          2.4841     (Corr)     .00386     12.152       2032    
+Job Processing.Queue.WaitingTime            2.0827     (Corr)     .00000     11.596       2033    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.0731     (Corr)     .00000     25.000     10.000    
+Machine.NumberBusy                          .81846     .04160     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .81846     .04160     .00000     1.0000     1.0000    
+Job Processing.Queue.NumberInQueue          4.2546     (Corr)     .00000     24.000     9.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           2042.0    
+Entity 1.NumberOut                          2032.0    
+Machine.NumberSeized                        2033.0    
+Machine.ScheduledUtilization                .81846    
+System.NumberOut                            2032.0    
+
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                 Output Summary for 20 Replications
+
+Project: Unnamed Project                                             Run execution date : 1/18/2019
+Analyst: iit                                                         Model revision date: 1/18/2019
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           2006.0     23.330     1934.0     2113.0     20
+Entity 1.NumberOut                          2002.3     22.917     1934.0     2108.0     20
+Machine.NumberSeized                        2003.2     22.965     1934.0     2109.0     20
+Machine.ScheduledUtilization                .79928     .01172     .75349     .85791     20
+System.NumberOut                            2002.3     22.917     1934.0     2108.0     20
+
+Simulation run time: 0.58 minutes.
+Simulation run complete.
