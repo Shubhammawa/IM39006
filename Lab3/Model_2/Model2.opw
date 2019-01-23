@@ -1,7 +1,0 @@
-[RESOURCES]
-Machine
-[VARIABLES]
-Job Processing.NumberIn
-Job Processing.NumberOut
-Jobs Completed.NumberOut
-Buffer.NumberOut
