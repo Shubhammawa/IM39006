@@ -1,0 +1,27 @@
+[RESOURCES]
+Resource 1
+Resource 2
+Resource 3
+Resource 4
+Resource 5
+[VARIABLES]
+Process 4.NumberOut
+Decide 3.NumberOut True
+Decide 2.NumberOut False
+Process 1.NumberOut
+Decide 4.NumberOut True
+Decide 3.NumberOut False
+Process 3.NumberOut
+Dispose 1.NumberOut
+Process 2.NumberIn
+Process 4.NumberIn
+Decide 1.NumberOut True
+Decide 4.NumberOut False
+Parts.NumberOut
+Process 2.NumberOut
+Process 5.NumberOut
+Decide 2.NumberOut True
+Decide 1.NumberOut False
+Process 1.NumberIn
+Process 3.NumberIn
+Process 5.NumberIn

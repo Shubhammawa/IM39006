@@ -1,0 +1,420 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date : 2/ 1/2019
+Analyst: iit                                                         Model revision date: 2/ 1/2019
+
+Replication ended at time      : 166.66667 Hours 
+Statistics were cleared at time: 8.3333333 Hours (Saturday, February 02, 2019, 01:00:00)
+Statistics accumulated for time: 158.33333 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.0885     .02705     .91667     3.1333        678    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        678    
+Entity 1.WaitTime                           1.5487     (Corr)     .09466     7.9543        678    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        678    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        678    
+Entity 1.TotalTime                          2.6373     (Corr)     1.0113     9.9543        678    
+Process 5.Queue.WaitingTime                 .12367     .03942     .00000     .63333        739    
+Process 1.Queue.WaitingTime                 .10308     (Corr)     .00000     .85245        773    
+Process 2.Queue.WaitingTime                 .19296     (Corr)     .00000     1.0833        857    
+Process 3.Queue.WaitingTime                 .50638     (Corr)     .00000     1.8952        845    
+Process 4.Queue.WaitingTime                 .35342     (Corr)     .00000     1.5636        825    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                11.367     (Corr)     6.0000     18.000     14.000    
+Resource 1.NumberBusy                       .89477     (Corr)     .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .89477     (Corr)     .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .90182     (Corr)     .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .90182     (Corr)     .00000     1.0000     1.0000    
+Resource 3.NumberBusy                       .97806     (Insuf)    .00000     1.0000     1.0000    
+Resource 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 3.Utilization                      .97806     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberBusy                       .95573     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 4.Utilization                      .95573     (Insuf)    .00000     1.0000     1.0000    
+Resource 5.NumberBusy                       .93436     (Insuf)    .00000     1.0000     1.0000    
+Resource 5.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 5.Utilization                      .93436     (Insuf)    .00000     1.0000     1.0000    
+Process 5.Queue.NumberInQueue               .57766     (Corr)     .00000     4.0000     1.0000    
+Process 1.Queue.NumberInQueue               .50257     (Corr)     .00000     5.0000     .00000    
+Process 2.Queue.NumberInQueue               1.0444     (Corr)     .00000     7.0000     .00000    
+Process 3.Queue.NumberInQueue               2.7432     (Corr)     .00000     11.000     7.0000    
+Process 4.Queue.NumberInQueue               1.8352     (Corr)     .00000     9.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           681.00    
+Entity 1.NumberOut                          678.00    
+Resource 1.NumberSeized                     773.00    
+Resource 1.ScheduledUtilization             .89477    
+Resource 2.NumberSeized                     857.00    
+Resource 2.ScheduledUtilization             .90182    
+Resource 3.NumberSeized                     845.00    
+Resource 3.ScheduledUtilization             .97806    
+Resource 4.NumberSeized                     825.00    
+Resource 4.ScheduledUtilization             .95573    
+Resource 5.NumberSeized                     739.00    
+Resource 5.ScheduledUtilization             .93436    
+System.NumberOut                            678.00    
+
+Beginning replication 2 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 2 of 5
+
+Project: Unnamed Project                                             Run execution date : 2/ 1/2019
+Analyst: iit                                                         Model revision date: 2/ 1/2019
+
+Replication ended at time      : 166.66667 Hours 
+Statistics were cleared at time: 8.3333333 Hours (Saturday, February 02, 2019, 01:00:00)
+Statistics accumulated for time: 158.33333 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.0924     .02046     .91667     3.0500        676    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        676    
+Entity 1.WaitTime                           1.5925     (Corr)     .04472     9.1693        676    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        676    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        676    
+Entity 1.TotalTime                          2.6849     (Corr)     .96139     11.535        676    
+Process 5.Queue.WaitingTime                 .13550     (Corr)     .00000     .65000        744    
+Process 1.Queue.WaitingTime                 .06640     .02145     .00000     .49440        766    
+Process 2.Queue.WaitingTime                 .07233     .02420     .00000     .45815        858    
+Process 3.Queue.WaitingTime                 .58096     (Corr)     .00000     1.6788        848    
+Process 4.Queue.WaitingTime                 .45225     (Corr)     .00000     1.4745        826    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                11.500     (Corr)     4.0000     20.000     10.000    
+Resource 1.NumberBusy                       .88642     .02022     .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .88642     .02022     .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .90225     .01981     .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .90225     .01981     .00000     1.0000     1.0000    
+Resource 3.NumberBusy                       .98237     (Insuf)    .00000     1.0000     1.0000    
+Resource 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 3.Utilization                      .98237     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberBusy                       .95648     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 4.Utilization                      .95648     (Insuf)    .00000     1.0000     1.0000    
+Resource 5.NumberBusy                       .93995     (Insuf)    .00000     1.0000     1.0000    
+Resource 5.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 5.Utilization                      .93995     (Insuf)    .00000     1.0000     1.0000    
+Process 5.Queue.NumberInQueue               .63671     (Corr)     .00000     4.0000     .00000    
+Process 1.Queue.NumberInQueue               .32123     .10829     .00000     3.0000     .00000    
+Process 2.Queue.NumberInQueue               .39174     .11567     .00000     3.0000     .00000    
+Process 3.Queue.NumberInQueue               3.1244     (Corr)     .00000     10.000     5.0000    
+Process 4.Queue.NumberInQueue               2.3590     (Corr)     .00000     9.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           679.00    
+Entity 1.NumberOut                          676.00    
+Resource 1.NumberSeized                     766.00    
+Resource 1.ScheduledUtilization             .88642    
+Resource 2.NumberSeized                     858.00    
+Resource 2.ScheduledUtilization             .90225    
+Resource 3.NumberSeized                     848.00    
+Resource 3.ScheduledUtilization             .98237    
+Resource 4.NumberSeized                     826.00    
+Resource 4.ScheduledUtilization             .95648    
+Resource 5.NumberSeized                     744.00    
+Resource 5.ScheduledUtilization             .93995    
+System.NumberOut                            676.00    
+
+Beginning replication 3 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 3 of 5
+
+Project: Unnamed Project                                             Run execution date : 2/ 1/2019
+Analyst: iit                                                         Model revision date: 2/ 1/2019
+
+Replication ended at time      : 166.66667 Hours 
+Statistics were cleared at time: 8.3333333 Hours (Saturday, February 02, 2019, 01:00:00)
+Statistics accumulated for time: 158.33333 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.0951     .02225     .91667     2.4000        675    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        675    
+Entity 1.WaitTime                           1.6700     (Corr)     .36306     7.0795        675    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        675    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        675    
+Entity 1.TotalTime                          2.7652     (Corr)     1.2883     9.4628        675    
+Process 5.Queue.WaitingTime                 .32654     (Corr)     .00000     1.1000        761    
+Process 1.Queue.WaitingTime                 .07656     .02648     .00000     .68375        769    
+Process 2.Queue.WaitingTime                 .06377     .01766     .00000     .42675        841    
+Process 3.Queue.WaitingTime                 .52194     (Corr)     .00000     1.6506        835    
+Process 4.Queue.WaitingTime                 .39540     .08955     .00000     .91667        848    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                11.844     (Corr)     6.0000     18.000     11.000    
+Resource 1.NumberBusy                       .88966     .02052     .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .88966     .02052     .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .88582     .02572     .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .88582     .02572     .00000     1.0000     1.0000    
+Resource 3.NumberBusy                       .96673     (Insuf)    .00000     1.0000     1.0000    
+Resource 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 3.Utilization                      .96673     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberBusy                       .98178     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 4.Utilization                      .98178     (Insuf)    .00000     1.0000     1.0000    
+Resource 5.NumberBusy                       .96231     (Insuf)    .00000     1.0000     .00000    
+Resource 5.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 5.Utilization                      .96231     (Insuf)    .00000     1.0000     .00000    
+Process 5.Queue.NumberInQueue               1.5694     (Corr)     .00000     6.0000     .00000    
+Process 1.Queue.NumberInQueue               .37186     .12659     .00000     4.0000     .00000    
+Process 2.Queue.NumberInQueue               .33872     .11779     .00000     3.0000     .00000    
+Process 3.Queue.NumberInQueue               2.7583     (Corr)     .00000     10.000     4.0000    
+Process 4.Queue.NumberInQueue               2.1199     (Corr)     .00000     5.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           679.00    
+Entity 1.NumberOut                          675.00    
+Resource 1.NumberSeized                     769.00    
+Resource 1.ScheduledUtilization             .88966    
+Resource 2.NumberSeized                     841.00    
+Resource 2.ScheduledUtilization             .88582    
+Resource 3.NumberSeized                     835.00    
+Resource 3.ScheduledUtilization             .96673    
+Resource 4.NumberSeized                     848.00    
+Resource 4.ScheduledUtilization             .98178    
+Resource 5.NumberSeized                     761.00    
+Resource 5.ScheduledUtilization             .96231    
+System.NumberOut                            675.00    
+
+Beginning replication 4 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 4 of 5
+
+Project: Unnamed Project                                             Run execution date : 2/ 1/2019
+Analyst: iit                                                         Model revision date: 2/ 1/2019
+
+Replication ended at time      : 166.66667 Hours 
+Statistics were cleared at time: 8.3333333 Hours (Saturday, February 02, 2019, 01:00:00)
+Statistics accumulated for time: 158.33333 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.0678     .01787     .91667     2.4166        667    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        667    
+Entity 1.WaitTime                           1.1937     (Corr)     .00000     5.4690        667    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        667    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        667    
+Entity 1.TotalTime                          2.2616     (Corr)     .91667     7.5061        667    
+Process 5.Queue.WaitingTime                 .14293     .04666     .00000     .65000        742    
+Process 1.Queue.WaitingTime                 .05893     (Corr)     .00000     .73909        749    
+Process 2.Queue.WaitingTime                 .05197     .02992     .00000     .54967        816    
+Process 3.Queue.WaitingTime                 .40241     (Corr)     .00000     1.9581        812    
+Process 4.Queue.WaitingTime                 .35475     (Corr)     .00000     1.6500        811    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                9.6988     (Corr)     3.0000     18.000     15.000    
+Resource 1.NumberBusy                       .86727     (Corr)     .00000     1.0000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .86727     (Corr)     .00000     1.0000     .00000    
+Resource 2.NumberBusy                       .85815     (Corr)     .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .85815     (Corr)     .00000     1.0000     1.0000    
+Resource 3.NumberBusy                       .94059     (Insuf)    .00000     1.0000     1.0000    
+Resource 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 3.Utilization                      .94059     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberBusy                       .93909     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 4.Utilization                      .93909     (Insuf)    .00000     1.0000     1.0000    
+Resource 5.NumberBusy                       .93768     (Insuf)    .00000     1.0000     1.0000    
+Resource 5.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 5.Utilization                      .93768     (Insuf)    .00000     1.0000     1.0000    
+Process 5.Queue.NumberInQueue               .66980     (Corr)     .00000     4.0000     .00000    
+Process 1.Queue.NumberInQueue               .27878     (Corr)     .00000     5.0000     .00000    
+Process 2.Queue.NumberInQueue               .26783     .14972     .00000     4.0000     .00000    
+Process 3.Queue.NumberInQueue               2.0644     (Corr)     .00000     11.000     1.0000    
+Process 4.Queue.NumberInQueue               1.8752     (Insuf)    .00000     11.000     10.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           678.00    
+Entity 1.NumberOut                          667.00    
+Resource 1.NumberSeized                     749.00    
+Resource 1.ScheduledUtilization             .86727    
+Resource 2.NumberSeized                     816.00    
+Resource 2.ScheduledUtilization             .85815    
+Resource 3.NumberSeized                     812.00    
+Resource 3.ScheduledUtilization             .94059    
+Resource 4.NumberSeized                     811.00    
+Resource 4.ScheduledUtilization             .93909    
+Resource 5.NumberSeized                     742.00    
+Resource 5.ScheduledUtilization             .93768    
+System.NumberOut                            667.00    
+
+Beginning replication 5 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 5 of 5
+
+Project: Unnamed Project                                             Run execution date : 2/ 1/2019
+Analyst: iit                                                         Model revision date: 2/ 1/2019
+
+Replication ended at time      : 166.66667 Hours 
+Statistics were cleared at time: 8.3333333 Hours (Saturday, February 02, 2019, 01:00:00)
+Statistics accumulated for time: 158.33333 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.0892     .02798     .91667     3.1166        672    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        672    
+Entity 1.WaitTime                           1.5612     (Corr)     .12341     6.3536        672    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        672    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        672    
+Entity 1.TotalTime                          2.6505     (Corr)     1.0400     8.4593        672    
+Process 5.Queue.WaitingTime                 .22226     (Corr)     .00000     1.1413        750    
+Process 1.Queue.WaitingTime                 .06227     .02249     .00000     .54508        762    
+Process 2.Queue.WaitingTime                 .11024     (Corr)     .00000     1.2552        844    
+Process 3.Queue.WaitingTime                 .59858     (Corr)     .00000     2.3000        840    
+Process 4.Queue.WaitingTime                 .30157     .09215     .00000     1.2833        835    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                11.388     (Corr)     5.0000     21.000     14.000    
+Resource 1.NumberBusy                       .88324     .01995     .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .88324     .01995     .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .88808     (Corr)     .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .88808     (Corr)     .00000     1.0000     1.0000    
+Resource 3.NumberBusy                       .97305     (Insuf)    .00000     1.0000     1.0000    
+Resource 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 3.Utilization                      .97305     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberBusy                       .96659     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 4.Utilization                      .96659     (Insuf)    .00000     1.0000     1.0000    
+Resource 5.NumberBusy                       .94711     (Insuf)    .00000     1.0000     1.0000    
+Resource 5.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 5.Utilization                      .94711     (Insuf)    .00000     1.0000     1.0000    
+Process 5.Queue.NumberInQueue               1.0528     (Corr)     .00000     6.0000     .00000    
+Process 1.Queue.NumberInQueue               .29966     .10592     .00000     3.0000     .00000    
+Process 2.Queue.NumberInQueue               .58756     (Corr)     .00000     8.0000     .00000    
+Process 3.Queue.NumberInQueue               3.1965     (Corr)     .00000     13.000     7.0000    
+Process 4.Queue.NumberInQueue               1.5938     (Corr)     .00000     7.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           679.00    
+Entity 1.NumberOut                          672.00    
+Resource 1.NumberSeized                     762.00    
+Resource 1.ScheduledUtilization             .88324    
+Resource 2.NumberSeized                     844.00    
+Resource 2.ScheduledUtilization             .88808    
+Resource 3.NumberSeized                     840.00    
+Resource 3.ScheduledUtilization             .97305    
+Resource 4.NumberSeized                     835.00    
+Resource 4.ScheduledUtilization             .96659    
+Resource 5.NumberSeized                     750.00    
+Resource 5.ScheduledUtilization             .94711    
+System.NumberOut                            672.00    
+
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Output Summary for 5 Replications
+
+Project: Unnamed Project                                             Run execution date : 2/ 1/2019
+Analyst: iit                                                         Model revision date: 2/ 1/2019
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           679.20     1.3599     678.00     681.00     5
+Entity 1.NumberOut                          673.60     5.3108     667.00     678.00     5
+Resource 1.NumberSeized                     763.80     11.425     749.00     773.00     5
+Resource 1.ScheduledUtilization             .88427     .01293     .86727     .89477     5
+Resource 2.NumberSeized                     843.20     21.093     816.00     858.00     5
+Resource 2.ScheduledUtilization             .88722     .02227     .85815     .90225     5
+Resource 3.NumberSeized                     836.00     17.753     812.00     848.00     5
+Resource 3.ScheduledUtilization             .96816     .02045     .94059     .98237     5
+Resource 4.NumberSeized                     829.00     16.954     811.00     848.00     5
+Resource 4.ScheduledUtilization             .95993     .01949     .93909     .98178     5
+Resource 5.NumberSeized                     747.20     10.801     739.00     761.00     5
+Resource 5.ScheduledUtilization             .94428     .01379     .93436     .96231     5
+System.NumberOut                            673.60     5.3108     667.00     678.00     5
+
+Simulation run time: 0.18 minutes.
+Simulation run complete.
