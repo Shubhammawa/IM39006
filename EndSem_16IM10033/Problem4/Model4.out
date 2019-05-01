@@ -1,0 +1,395 @@
+SIMAN Run Controller.
+
+0.0 Minutes>
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date : 4/12/2019
+Analyst: None                                                        Model revision date: 4/12/2019
+
+Replication ended at time      : 960.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Frequent Fliers.VATime                      9.8391     (Insuf)    6.0905     14.310         43    
+Frequent Fliers.NVATime                     .00000     (Insuf)    .00000     .00000         43    
+Frequent Fliers.WaitTime                    1.8813     (Insuf)    .00000     17.126         43    
+Frequent Fliers.TranTime                    .00000     (Insuf)    .00000     .00000         43    
+Frequent Fliers.OtherTime                   .00000     (Insuf)    .00000     .00000         43    
+Frequent Fliers.TotalTime                   11.720     (Insuf)    6.0905     27.822         43    
+Non Frequent Fliers.VATime                  9.5179     .17873     4.4553     15.299        526    
+Non Frequent Fliers.NVATime                 .00000     .00000     .00000     .00000        526    
+Non Frequent Fliers.WaitTime                16.913     (Corr)     .00000     49.105        526    
+Non Frequent Fliers.TranTime                .00000     .00000     .00000     .00000        526    
+Non Frequent Fliers.OtherTime               .00000     .00000     .00000     .00000        526    
+Non Frequent Fliers.TotalTime               26.431     (Corr)     5.0455     62.220        526    
+Check In Non Frequent.Queue.WaitingTime     16.905     (Corr)     .00000     49.105        530    
+Check In Frequent.Queue.WaitingTime         1.8813     (Insuf)    .00000     17.126         43    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Frequent Fliers.WIP                         .52498     (Insuf)    .00000     3.0000     .00000    
+Non Frequent Fliers.WIP                     14.716     (Corr)     .00000     35.000     17.000    
+Agent for Frequent Fliers.NumberBusy        .32952     (Insuf)    .00000     1.0000     .00000    
+Agent for Frequent Fliers.NumberScheduled   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Agent for Frequent Fliers.Utilization       .32952     (Insuf)    .00000     1.0000     .00000    
+Agent for Non Frequent.NumberBusy           3.8772     (Insuf)    .00000     4.0000     4.0000    
+Agent for Non Frequent.NumberScheduled      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Agent for Non Frequent.Utilization          .96930     (Insuf)    .00000     1.0000     1.0000    
+Check In Non Frequent.Queue.NumberInQueue   9.4414     (Corr)     .00000     28.000     12.000    
+Check In Frequent.Queue.NumberInQueue       .08427     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           586.00    
+Entity 1.NumberOut                          586.00    
+Frequent Fliers.NumberIn                    43.000    
+Frequent Fliers.NumberOut                   43.000    
+Non Frequent Fliers.NumberIn                543.00    
+Non Frequent Fliers.NumberOut               526.00    
+Agent for Frequent Fliers.NumberSeized      43.000    
+Agent for Frequent Fliers.ScheduledUtiliza  .32952    
+Agent for Non Frequent.NumberSeized         530.00    
+Agent for Non Frequent.ScheduledUtilizatio  .96930    
+System.NumberOut                            569.00    
+
+Beginning replication 2 of 5
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 2 of 5
+
+Project: Unnamed Project                                             Run execution date : 4/12/2019
+Analyst: None                                                        Model revision date: 4/12/2019
+
+Replication ended at time      : 960.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Frequent Fliers.VATime                      9.4740     (Insuf)    5.5888     13.367         47    
+Frequent Fliers.NVATime                     .00000     (Insuf)    .00000     .00000         47    
+Frequent Fliers.WaitTime                    2.1387     (Insuf)    .00000     13.779         47    
+Frequent Fliers.TranTime                    .00000     (Insuf)    .00000     .00000         47    
+Frequent Fliers.OtherTime                   .00000     (Insuf)    .00000     .00000         47    
+Frequent Fliers.TotalTime                   11.612     (Insuf)    6.0651     22.288         47    
+Non Frequent Fliers.VATime                  9.5923     .17234     3.4123     15.755        537    
+Non Frequent Fliers.NVATime                 .00000     .00000     .00000     .00000        537    
+Non Frequent Fliers.WaitTime                30.758     (Corr)     .00000     59.865        537    
+Non Frequent Fliers.TranTime                .00000     .00000     .00000     .00000        537    
+Non Frequent Fliers.OtherTime               .00000     .00000     .00000     .00000        537    
+Non Frequent Fliers.TotalTime               40.350     (Corr)     6.1868     71.827        537    
+Check In Non Frequent.Queue.WaitingTime     30.580     (Corr)     .00000     59.865        541    
+Check In Frequent.Queue.WaitingTime         2.1387     (Insuf)    .00000     13.779         47    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Frequent Fliers.WIP                         .56854     (Insuf)    .00000     3.0000     .00000    
+Non Frequent Fliers.WIP                     22.667     (Corr)     .00000     40.000     15.000    
+Agent for Frequent Fliers.NumberBusy        .34227     (Insuf)    .00000     1.0000     .00000    
+Agent for Frequent Fliers.NumberScheduled   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Agent for Frequent Fliers.Utilization       .34227     (Insuf)    .00000     1.0000     .00000    
+Agent for Non Frequent.NumberBusy           3.9862     (Insuf)    .00000     4.0000     4.0000    
+Agent for Non Frequent.NumberScheduled      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Agent for Non Frequent.Utilization          .99655     (Insuf)    .00000     1.0000     1.0000    
+Check In Non Frequent.Queue.NumberInQueue   17.253     (Corr)     .00000     35.000     6.0000    
+Check In Frequent.Queue.NumberInQueue       .10471     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           599.00    
+Entity 1.NumberOut                          599.00    
+Frequent Fliers.NumberIn                    47.000    
+Frequent Fliers.NumberOut                   47.000    
+Non Frequent Fliers.NumberIn                552.00    
+Non Frequent Fliers.NumberOut               537.00    
+Agent for Frequent Fliers.NumberSeized      47.000    
+Agent for Frequent Fliers.ScheduledUtiliza  .34227    
+Agent for Non Frequent.NumberSeized         541.00    
+Agent for Non Frequent.ScheduledUtilizatio  .99655    
+System.NumberOut                            584.00    
+
+Beginning replication 3 of 5
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 3 of 5
+
+Project: Unnamed Project                                             Run execution date : 4/12/2019
+Analyst: None                                                        Model revision date: 4/12/2019
+
+Replication ended at time      : 960.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Frequent Fliers.VATime                      9.1086     (Insuf)    4.6519     13.039         53    
+Frequent Fliers.NVATime                     .00000     (Insuf)    .00000     .00000         53    
+Frequent Fliers.WaitTime                    3.4273     (Insuf)    .00000     18.118         53    
+Frequent Fliers.TranTime                    .00000     (Insuf)    .00000     .00000         53    
+Frequent Fliers.OtherTime                   .00000     (Insuf)    .00000     .00000         53    
+Frequent Fliers.TotalTime                   12.536     (Insuf)    5.8598     28.513         53    
+Non Frequent Fliers.VATime                  9.5812     .18812     3.5646     14.841        514    
+Non Frequent Fliers.NVATime                 .00000     .00000     .00000     .00000        514    
+Non Frequent Fliers.WaitTime                17.628     (Corr)     .00000     46.253        514    
+Non Frequent Fliers.TranTime                .00000     .00000     .00000     .00000        514    
+Non Frequent Fliers.OtherTime               .00000     .00000     .00000     .00000        514    
+Non Frequent Fliers.TotalTime               27.210     (Corr)     5.2415     56.364        514    
+Check In Non Frequent.Queue.WaitingTime     17.557     (Corr)     .00000     46.253        518    
+Check In Frequent.Queue.WaitingTime         3.3638     (Insuf)    .00000     18.118         54    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Frequent Fliers.WIP                         .69718     (Insuf)    .00000     5.0000     2.0000    
+Non Frequent Fliers.WIP                     14.636     (Corr)     .00000     29.000     6.0000    
+Agent for Frequent Fliers.NumberBusy        .36607     (Insuf)    .00000     1.0000     1.0000    
+Agent for Frequent Fliers.NumberScheduled   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Agent for Frequent Fliers.Utilization       .36607     (Insuf)    .00000     1.0000     1.0000    
+Agent for Non Frequent.NumberBusy           3.8026     (Insuf)    .00000     4.0000     4.0000    
+Agent for Non Frequent.NumberScheduled      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Agent for Non Frequent.Utilization          .95067     (Insuf)    .00000     1.0000     1.0000    
+Check In Non Frequent.Queue.NumberInQueue   9.4770     (Corr)     .00000     24.000     1.0000    
+Check In Frequent.Queue.NumberInQueue       .18922     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           575.00    
+Entity 1.NumberOut                          575.00    
+Frequent Fliers.NumberIn                    55.000    
+Frequent Fliers.NumberOut                   53.000    
+Non Frequent Fliers.NumberIn                520.00    
+Non Frequent Fliers.NumberOut               514.00    
+Agent for Frequent Fliers.NumberSeized      54.000    
+Agent for Frequent Fliers.ScheduledUtiliza  .36607    
+Agent for Non Frequent.NumberSeized         518.00    
+Agent for Non Frequent.ScheduledUtilizatio  .95067    
+System.NumberOut                            567.00    
+
+Beginning replication 4 of 5
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 4 of 5
+
+Project: Unnamed Project                                             Run execution date : 4/12/2019
+Analyst: None                                                        Model revision date: 4/12/2019
+
+Replication ended at time      : 960.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Frequent Fliers.VATime                      9.2435     (Insuf)    3.4699     13.001         45    
+Frequent Fliers.NVATime                     .00000     (Insuf)    .00000     .00000         45    
+Frequent Fliers.WaitTime                    1.5446     (Insuf)    .00000     9.9385         45    
+Frequent Fliers.TranTime                    .00000     (Insuf)    .00000     .00000         45    
+Frequent Fliers.OtherTime                   .00000     (Insuf)    .00000     .00000         45    
+Frequent Fliers.TotalTime                   10.788     (Insuf)    3.4699     17.844         45    
+Non Frequent Fliers.VATime                  9.3951     (Corr)     3.7135     16.092        541    
+Non Frequent Fliers.NVATime                 .00000     .00000     .00000     .00000        541    
+Non Frequent Fliers.WaitTime                36.523     (Corr)     .00000     105.85        541    
+Non Frequent Fliers.TranTime                .00000     .00000     .00000     .00000        541    
+Non Frequent Fliers.OtherTime               .00000     .00000     .00000     .00000        541    
+Non Frequent Fliers.TotalTime               45.918     (Corr)     5.2569     118.79        541    
+Check In Non Frequent.Queue.WaitingTime     36.877     (Corr)     .00000     105.85        545    
+Check In Frequent.Queue.WaitingTime         1.5446     (Insuf)    .00000     9.9385         45    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Frequent Fliers.WIP                         .50569     (Insuf)    .00000     3.0000     .00000    
+Non Frequent Fliers.WIP                     27.843     (Corr)     .00000     64.000     39.000    
+Agent for Frequent Fliers.NumberBusy        .31706     (Insuf)    .00000     1.0000     .00000    
+Agent for Frequent Fliers.NumberScheduled   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Agent for Frequent Fliers.Utilization       .31706     (Insuf)    .00000     1.0000     .00000    
+Agent for Non Frequent.NumberBusy           3.8977     (Insuf)    .00000     4.0000     4.0000    
+Agent for Non Frequent.NumberScheduled      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Agent for Non Frequent.Utilization          .97444     (Insuf)    .00000     1.0000     1.0000    
+Check In Non Frequent.Queue.NumberInQueue   22.425     (Corr)     .00000     59.000     34.000    
+Check In Frequent.Queue.NumberInQueue       .07240     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           625.00    
+Entity 1.NumberOut                          625.00    
+Frequent Fliers.NumberIn                    45.000    
+Frequent Fliers.NumberOut                   45.000    
+Non Frequent Fliers.NumberIn                580.00    
+Non Frequent Fliers.NumberOut               541.00    
+Agent for Frequent Fliers.NumberSeized      45.000    
+Agent for Frequent Fliers.ScheduledUtiliza  .31706    
+Agent for Non Frequent.NumberSeized         545.00    
+Agent for Non Frequent.ScheduledUtilizatio  .97444    
+System.NumberOut                            586.00    
+
+Beginning replication 5 of 5
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 5 of 5
+
+Project: Unnamed Project                                             Run execution date : 4/12/2019
+Analyst: None                                                        Model revision date: 4/12/2019
+
+Replication ended at time      : 960.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Frequent Fliers.VATime                      9.4004     (Insuf)    4.9839     13.998         45    
+Frequent Fliers.NVATime                     .00000     (Insuf)    .00000     .00000         45    
+Frequent Fliers.WaitTime                    1.0367     (Insuf)    .00000     9.4868         45    
+Frequent Fliers.TranTime                    .00000     (Insuf)    .00000     .00000         45    
+Frequent Fliers.OtherTime                   .00000     (Insuf)    .00000     .00000         45    
+Frequent Fliers.TotalTime                   10.437     (Insuf)    4.9839     19.653         45    
+Non Frequent Fliers.VATime                  9.5759     .18289     3.1244     15.183        535    
+Non Frequent Fliers.NVATime                 .00000     .00000     .00000     .00000        535    
+Non Frequent Fliers.WaitTime                36.169     (Corr)     .00000     80.946        535    
+Non Frequent Fliers.TranTime                .00000     .00000     .00000     .00000        535    
+Non Frequent Fliers.OtherTime               .00000     .00000     .00000     .00000        535    
+Non Frequent Fliers.TotalTime               45.745     (Corr)     7.3506     90.245        535    
+Check In Non Frequent.Queue.WaitingTime     36.481     (Corr)     .00000     80.946        539    
+Check In Frequent.Queue.WaitingTime         1.0367     (Insuf)    .00000     9.4868         45    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Frequent Fliers.WIP                         .48925     (Insuf)    .00000     3.0000     .00000    
+Non Frequent Fliers.WIP                     27.701     (Corr)     .00000     55.000     45.000    
+Agent for Frequent Fliers.NumberBusy        .32520     (Insuf)    .00000     1.0000     .00000    
+Agent for Frequent Fliers.NumberScheduled   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Agent for Frequent Fliers.Utilization       .32520     (Insuf)    .00000     1.0000     .00000    
+Agent for Non Frequent.NumberBusy           3.9574     (Insuf)    .00000     4.0000     4.0000    
+Agent for Non Frequent.NumberScheduled      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Agent for Non Frequent.Utilization          .98937     (Insuf)    .00000     1.0000     1.0000    
+Check In Non Frequent.Queue.NumberInQueue   22.232     (Corr)     .00000     49.000     40.000    
+Check In Frequent.Queue.NumberInQueue       .04860     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           625.00    
+Entity 1.NumberOut                          625.00    
+Frequent Fliers.NumberIn                    45.000    
+Frequent Fliers.NumberOut                   45.000    
+Non Frequent Fliers.NumberIn                580.00    
+Non Frequent Fliers.NumberOut               535.00    
+Agent for Frequent Fliers.NumberSeized      45.000    
+Agent for Frequent Fliers.ScheduledUtiliza  .32520    
+Agent for Non Frequent.NumberSeized         539.00    
+Agent for Non Frequent.ScheduledUtilizatio  .98937    
+System.NumberOut                            580.00    
+
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Output Summary for 5 Replications
+
+Project: Unnamed Project                                             Run execution date : 4/12/2019
+Analyst: None                                                        Model revision date: 4/12/2019
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           602.00     28.118     575.00     625.00     5
+Entity 1.NumberOut                          602.00     28.118     575.00     625.00     5
+Frequent Fliers.NumberIn                    47.000     5.8229     43.000     55.000     5
+Frequent Fliers.NumberOut                   46.600     4.7760     43.000     53.000     5
+Non Frequent Fliers.NumberIn                555.00     31.821     520.00     580.00     5
+Non Frequent Fliers.NumberOut               530.60     13.388     514.00     541.00     5
+Agent for Frequent Fliers.NumberSeized      46.800     5.2962     43.000     54.000     5
+Agent for Frequent Fliers.ScheduledUtiliza  .33603     .02373     .31706     .36607     5
+Agent for Non Frequent.NumberSeized         534.60     13.388     518.00     545.00     5
+Agent for Non Frequent.ScheduledUtilizatio  .97607     .02229     .95067     .99655     5
+System.NumberOut                            577.20     10.801     567.00     586.00     5
+
+Simulation run time: 1.17 minutes.
+Simulation run complete.

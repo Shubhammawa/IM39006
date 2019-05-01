@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/12/2019
+Analyst: None                                                        Model revision date: 4/12/2019
+
+Replication ended at time      : 960.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             9.2991     .18661     3.7124     15.508        583    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        583    
+Entity 1.WaitTime                           3.2050     (Corr)     .00000     19.585        583    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        583    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        583    
+Entity 1.TotalTime                          12.504     (Corr)     3.7124     30.268        583    
+Check In.Queue.WaitingTime                  3.2262     (Corr)     .00000     19.585        588    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                7.6616     (Corr)     .00000     21.000     9.0000    
+Agent.NumberBusy                            4.1355     .29908     .00000     5.0000     5.0000    
+Agent.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Agent.Utilization                           .82710     .05982     .00000     1.0000     1.0000    
+Check In.Queue.NumberInQueue                1.9824     (Corr)     .00000     14.000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           592.00    
+Entity 1.NumberOut                          583.00    
+Agent.NumberSeized                          588.00    
+Agent.ScheduledUtilization                  .82710    
+System.NumberOut                            583.00    
+
+
+Simulation run time: 0.28 minutes.
+Simulation run complete.

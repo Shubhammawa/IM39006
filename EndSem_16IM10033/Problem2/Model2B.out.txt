@@ -1,0 +1,57 @@
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/12/2019
+Analyst: None                                                        Model revision date: 4/12/2019
+
+Replication ended at time      : 5000.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             26.920     .11657     24.042     29.819        510    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        510    
+Entity 1.WaitTime                           29.077     5.3217     .00000     100.77        510    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        510    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        510    
+Entity 1.TotalTime                          55.997     5.3430     24.574     127.86        510    
+Clerk Processing.Queue.WaitingTime          25.405     4.8544     .00000     92.307        514    
+Stock Process.Queue.WaitingTime             3.9523     1.1514     .00000     22.866        512    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.8111     (Corr)     .00000     15.000     11.000    
+Stock Persons.NumberBusy                    1.8414     (Insuf)    .00000     2.0000     2.0000    
+Stock Persons.NumberScheduled               2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Stock Persons.Utilization                   .92072     (Insuf)    .00000     1.0000     1.0000    
+Clerk.NumberBusy                            .91523     (Insuf)    .00000     1.0000     1.0000    
+Clerk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Clerk.Utilization                           .91523     (Insuf)    .00000     1.0000     1.0000    
+Clerk Processing.Queue.NumberInQueue        2.6490     (Corr)     .00000     11.000     7.0000    
+Stock Process.Queue.NumberInQueue           .40535     (Corr)     .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           521.00    
+Entity 1.NumberOut                          510.00    
+Stock Persons.NumberSeized                  512.00    
+Stock Persons.ScheduledUtilization          .92072    
+Clerk.NumberSeized                          514.00    
+Clerk.ScheduledUtilization                  .91523    
+System.NumberOut                            510.00    
+
+
+Simulation run time: 0.08 minutes.
+Simulation run complete.

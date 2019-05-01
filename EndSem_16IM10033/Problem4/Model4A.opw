@@ -1,0 +1,18 @@
+[RESOURCES]
+Agent for Frequent Fliers
+Agent for Non Frequent
+[VARIABLES]
+Decide 1.NumberOut False
+Check In Frequent.NumberOut
+Agent for Freq Busy or Free.NumberOut True
+Check In Frequent.NumberIn
+Agent for Freq Busy or Free.NumberOut False
+Freq vs Non freq.NumberOut False
+Travel to Check In.NumberIn
+Freq vs Non freq.NumberOut True
+Travel to Check In.NumberOut
+Customer Arrival.NumberOut
+Check In Non Frequent.NumberOut
+Check In Non Frequent.NumberIn
+Gates.NumberOut
+Decide 1.NumberOut True

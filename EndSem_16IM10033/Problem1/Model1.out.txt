@@ -1,0 +1,64 @@
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/12/2019
+Analyst: None                                                        Model revision date: 4/12/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             7.4906     .11570     3.0841     14.884        920    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        920    
+Entity 1.WaitTime                           19.979     (Corr)     .00000     51.419        920    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        920    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        920    
+Entity 1.TotalTime                          27.470     (Corr)     4.6533     61.505        920    
+Manual Check In.Queue.WaitingTime           24.155     (Corr)     .00000     39.951        359    
+Security.Queue.WaitingTime                  5.4354     (Corr)     .00000     18.834        926    
+Automated Check In.Queue.WaitingTime        11.506     (Corr)     .00000     27.455        460    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                55.372     (Corr)     .00000     94.000     60.000    
+Manual Check In Agent.NumberBusy            1.9824     (Insuf)    .00000     2.0000     2.0000    
+Manual Check In Agent.NumberScheduled       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Manual Check In Agent.Utilization           .99124     (Insuf)    .00000     1.0000     1.0000    
+Security Agents.NumberBusy                  5.7665     (Insuf)    .00000     6.0000     6.0000    
+Security Agents.NumberScheduled             6.0000     (Insuf)    6.0000     6.0000     6.0000    
+Security Agents.Utilization                 .96110     (Insuf)    .00000     1.0000     1.0000    
+Automated Check In Agent.NumberBusy         .96070     (Insuf)    .00000     1.0000     1.0000    
+Automated Check In Agent.NumberScheduled    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Automated Check In Agent.Utilization        .96070     (Insuf)    .00000     1.0000     1.0000    
+Manual Check In.Queue.NumberInQueue         18.812     (Corr)     .00000     33.000     21.000    
+Security.Queue.NumberInQueue                10.806     (Corr)     .00000     38.000     26.000    
+Automated Check In.Queue.NumberInQueue      11.027     (Corr)     .00000     27.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           980.00    
+Entity 1.NumberOut                          920.00    
+Manual Check In Agent.NumberSeized          359.00    
+Manual Check In Agent.ScheduledUtilization  .99124    
+Security Agents.NumberSeized                926.00    
+Security Agents.ScheduledUtilization        .96110    
+Automated Check In Agent.NumberSeized       460.00    
+Automated Check In Agent.ScheduledUtilizat  .96070    
+System.NumberOut                            920.00    
+
+
+Simulation run time: 1.47 minutes.
+Simulation run complete.

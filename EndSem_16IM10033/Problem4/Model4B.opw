@@ -1,0 +1,13 @@
+[RESOURCES]
+Agent
+[VARIABLES]
+Decide 1.NumberOut False
+Freq vs Non freq.NumberOut False
+Travel to Check In.NumberIn
+Freq vs Non freq.NumberOut True
+Check In.NumberOut
+Check In.NumberIn
+Travel to Check In.NumberOut
+Customer Arrival.NumberOut
+Gates.NumberOut
+Decide 1.NumberOut True

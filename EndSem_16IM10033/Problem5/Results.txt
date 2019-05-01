@@ -1,0 +1,8 @@
+No of data points	Best Fit
+	50		TRIA(9, 28.5, 100)
+
+	500		6 + ERLA(11.8, 3)
+
+	5000		5 + ERLA(11.8, 3)
+
+	25000		5 + ERLA(12.1, 3)

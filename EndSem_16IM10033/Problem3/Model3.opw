@@ -1,0 +1,14 @@
+[RESOURCES]
+Drilling machine
+Washing machine
+Inspector
+[VARIABLES]
+Washing.NumberIn
+Washing.NumberOut
+Part Arrival.NumberOut
+Inspection.NumberIn
+Inspection.NumberOut
+Drilling.NumberOut
+Dispose Failed.NumberOut
+Dispose Passed.NumberOut
+Drilling.NumberIn
