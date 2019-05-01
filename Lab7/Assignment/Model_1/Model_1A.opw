@@ -1,0 +1,11 @@
+[RESOURCES]
+Drill Machine
+[VARIABLES]
+Drilling.NumberOut
+Drilling.NumberIn
+Red.NumberOut
+Decide 1.NumberOut True
+Blue.NumberOut
+Decide 1.NumberOut False
+Exit.NumberOut
+Green.NumberOut

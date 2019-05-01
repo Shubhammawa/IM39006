@@ -1,0 +1,47 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 0.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Drilling.Queue.WaitingTime                      --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Drill Machine.NumberBusy                    .00000     (Insuf)    .00000     .00000     .00000    
+Drill Machine.NumberScheduled               .00000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .00000     (Insuf)    .00000     .00000     .00000    
+Drilling.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+Drill Machine.NumberSeized                  .00000    
+Drill Machine.ScheduledUtilization          .00000    
+System.NumberOut                            .00000    
+

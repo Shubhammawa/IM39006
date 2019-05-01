@@ -1,0 +1,467 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             15.188     (Insuf)    6.8761     21.811         28    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         28    
+Entity 1.WaitTime                           13.320     (Insuf)    .00000     39.865         28    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         28    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         28    
+Entity 1.TotalTime                          28.508     (Insuf)    11.721     47.752         28    
+Entity 2.VATime                             15.212     (Insuf)    7.7754     20.860         20    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Entity 2.WaitTime                           6.6962     (Insuf)    .00000     18.512         20    
+Entity 2.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Entity 2.TotalTime                          21.908     (Insuf)    7.7754     35.234         20    
+Entity 3.VATime                             14.505     (Insuf)    6.4446     21.460         26    
+Entity 3.NVATime                            .00000     (Insuf)    .00000     .00000         26    
+Entity 3.WaitTime                           12.100     (Insuf)    .00000     38.697         26    
+Entity 3.TranTime                           .00000     (Insuf)    .00000     .00000         26    
+Entity 3.OtherTime                          .00000     (Insuf)    .00000     .00000         26    
+Entity 3.TotalTime                          26.605     (Insuf)    6.4446     56.444         26    
+Green Painting.Queue.WaitingTime            7.1924     (Insuf)    .00000     31.952         27    
+Red painting.Queue.WaitingTime              2.6797     (Insuf)    .00000     14.116         21    
+Drilling.Queue.WaitingTime                  3.6297     (Insuf)    .00000     17.056         92    
+Blue Painting.Queue.WaitingTime             8.5544     (Insuf)    .00000     28.320         28    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.6629     (Insuf)    .00000     5.0000     .00000    
+Entity 2.WIP                                .93153     (Insuf)    .00000     3.0000     1.0000    
+Entity 3.WIP                                1.4652     (Insuf)    .00000     5.0000     1.0000    
+Red paint.NumberBusy                        .46753     (Insuf)    .00000     1.0000     1.0000    
+Red paint.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Red paint.Utilization                       .46753     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberBusy                    .63893     (Insuf)    .00000     1.0000     .00000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .63893     (Insuf)    .00000     1.0000     .00000    
+Blue paint.NumberBusy                       .65535     (Insuf)    .00000     1.0000     .00000    
+Blue paint.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Blue paint.Utilization                      .65535     (Insuf)    .00000     1.0000     .00000    
+Green paint.NumberBusy                      .58141     (Insuf)    .00000     1.0000     1.0000    
+Green paint.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Green paint.Utilization                     .58141     (Insuf)    .00000     1.0000     1.0000    
+Green Painting.Queue.NumberInQueue          .40457     (Insuf)    .00000     4.0000     .00000    
+Red painting.Queue.NumberInQueue            .11724     (Insuf)    .00000     2.0000     .00000    
+Drilling.Queue.NumberInQueue                .69570     (Insuf)    .00000     5.0000     .00000    
+Blue Painting.Queue.NumberInQueue           .49901     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           28.000    
+Entity 1.NumberOut                          28.000    
+Entity 2.NumberIn                           21.000    
+Entity 2.NumberOut                          20.000    
+Entity 3.NumberIn                           27.000    
+Entity 3.NumberOut                          26.000    
+Red paint.NumberSeized                      21.000    
+Red paint.ScheduledUtilization              .46753    
+Drill Machine.NumberSeized                  92.000    
+Drill Machine.ScheduledUtilization          .63893    
+Blue paint.NumberSeized                     28.000    
+Blue paint.ScheduledUtilization             .65535    
+Green paint.NumberSeized                    27.000    
+Green paint.ScheduledUtilization            .58141    
+System.NumberOut                            74.000    
+
+Beginning replication 2 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 2 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             14.862     (Insuf)    9.1422     25.490         24    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         24    
+Entity 1.WaitTime                           7.9116     (Insuf)    .00000     32.339         24    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         24    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         24    
+Entity 1.TotalTime                          22.773     (Insuf)    10.452     45.206         24    
+Entity 2.VATime                             13.608     (Insuf)    7.6235     20.746         29    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         29    
+Entity 2.WaitTime                           9.5770     (Insuf)    .00000     29.587         29    
+Entity 2.TranTime                           .00000     (Insuf)    .00000     .00000         29    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         29    
+Entity 2.TotalTime                          23.185     (Insuf)    8.7117     40.503         29    
+Entity 3.VATime                             13.081     (Insuf)    6.3095     18.473         29    
+Entity 3.NVATime                            .00000     (Insuf)    .00000     .00000         29    
+Entity 3.WaitTime                           10.907     (Insuf)    .00000     37.982         29    
+Entity 3.TranTime                           .00000     (Insuf)    .00000     .00000         29    
+Entity 3.OtherTime                          .00000     (Insuf)    .00000     .00000         29    
+Entity 3.TotalTime                          23.988     (Insuf)    6.3095     51.130         29    
+Green Painting.Queue.WaitingTime            8.2920     (Insuf)    .00000     34.309         30    
+Red painting.Queue.WaitingTime              5.1955     (Insuf)    .00000     16.011         30    
+Drilling.Queue.WaitingTime                  3.8440     (Insuf)    .00000     20.643        107    
+Blue Painting.Queue.WaitingTime             4.4217     (Insuf)    .00000     28.015         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.3820     (Insuf)    .00000     7.0000     5.0000    
+Entity 2.WIP                                1.5860     (Insuf)    .00000     5.0000     2.0000    
+Entity 3.WIP                                1.7237     (Insuf)    .00000     6.0000     6.0000    
+Red paint.NumberBusy                        .59979     (Insuf)    .00000     1.0000     1.0000    
+Red paint.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Red paint.Utilization                       .59979     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberBusy                    .71883     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .71883     (Insuf)    .00000     1.0000     1.0000    
+Blue paint.NumberBusy                       .53520     (Insuf)    .00000     1.0000     1.0000    
+Blue paint.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Blue paint.Utilization                      .53520     (Insuf)    .00000     1.0000     1.0000    
+Green paint.NumberBusy                      .60252     (Insuf)    .00000     1.0000     1.0000    
+Green paint.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Green paint.Utilization                     .60252     (Insuf)    .00000     1.0000     1.0000    
+Green Painting.Queue.NumberInQueue          .59133     (Insuf)    .00000     4.0000     1.0000    
+Red painting.Queue.NumberInQueue            .32472     (Insuf)    .00000     2.0000     .00000    
+Drilling.Queue.NumberInQueue                1.0890     (Insuf)    .00000     10.000     8.0000    
+Blue Painting.Queue.NumberInQueue           .23030     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           29.000    
+Entity 1.NumberOut                          24.000    
+Entity 2.NumberIn                           31.000    
+Entity 2.NumberOut                          29.000    
+Entity 3.NumberIn                           35.000    
+Entity 3.NumberOut                          29.000    
+Red paint.NumberSeized                      30.000    
+Red paint.ScheduledUtilization              .59979    
+Drill Machine.NumberSeized                  107.00    
+Drill Machine.ScheduledUtilization          .71883    
+Blue paint.NumberSeized                     25.000    
+Blue paint.ScheduledUtilization             .53520    
+Green paint.NumberSeized                    30.000    
+Green paint.ScheduledUtilization            .60252    
+System.NumberOut                            82.000    
+
+Beginning replication 3 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 3 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             13.303     (Insuf)    7.0207     24.021         35    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         35    
+Entity 1.WaitTime                           9.3342     (Insuf)    .00000     26.813         35    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         35    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         35    
+Entity 1.TotalTime                          22.638     (Insuf)    8.7134     44.393         35    
+Entity 2.VATime                             14.001     (Insuf)    6.0826     20.494         25    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         25    
+Entity 2.WaitTime                           5.2344     (Insuf)    .00000     22.339         25    
+Entity 2.TranTime                           .00000     (Insuf)    .00000     .00000         25    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         25    
+Entity 2.TotalTime                          19.235     (Insuf)    9.5633     40.421         25    
+Entity 3.VATime                             14.601     (Insuf)    8.0425     23.745         33    
+Entity 3.NVATime                            .00000     (Insuf)    .00000     .00000         33    
+Entity 3.WaitTime                           13.243     (Insuf)    .00000     37.844         33    
+Entity 3.TranTime                           .00000     (Insuf)    .00000     .00000         33    
+Entity 3.OtherTime                          .00000     (Insuf)    .00000     .00000         33    
+Entity 3.TotalTime                          27.845     (Insuf)    9.3293     61.590         33    
+Green Painting.Queue.WaitingTime            9.2977     (Insuf)    .00000     28.365         33    
+Red painting.Queue.WaitingTime              1.1500     (Insuf)    .00000     6.9599         25    
+Drilling.Queue.WaitingTime                  3.1678     (Insuf)    .00000     15.379        108    
+Blue Painting.Queue.WaitingTime             6.1968     (Insuf)    .00000     20.688         35    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.6562     (Insuf)    .00000     5.0000     1.0000    
+Entity 2.WIP                                1.0018     (Insuf)    .00000     4.0000     .00000    
+Entity 3.WIP                                1.9143     (Insuf)    .00000     5.0000     .00000    
+Red paint.NumberBusy                        .50531     (Insuf)    .00000     1.0000     .00000    
+Red paint.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Red paint.Utilization                       .50531     (Insuf)    .00000     1.0000     .00000    
+Drill Machine.NumberBusy                    .74635     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .74635     (Insuf)    .00000     1.0000     1.0000    
+Blue paint.NumberBusy                       .71111     (Insuf)    .00000     1.0000     .00000    
+Blue paint.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Blue paint.Utilization                      .71111     (Insuf)    .00000     1.0000     .00000    
+Green paint.NumberBusy                      .74596     (Insuf)    .00000     1.0000     .00000    
+Green paint.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Green paint.Utilization                     .74596     (Insuf)    .00000     1.0000     .00000    
+Green Painting.Queue.NumberInQueue          .63922     (Insuf)    .00000     4.0000     .00000    
+Red painting.Queue.NumberInQueue            .05990     (Insuf)    .00000     1.0000     .00000    
+Drilling.Queue.NumberInQueue                .71277     (Insuf)    .00000     4.0000     .00000    
+Blue Painting.Queue.NumberInQueue           .45185     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           36.000    
+Entity 1.NumberOut                          35.000    
+Entity 2.NumberIn                           25.000    
+Entity 2.NumberOut                          25.000    
+Entity 3.NumberIn                           33.000    
+Entity 3.NumberOut                          33.000    
+Red paint.NumberSeized                      25.000    
+Red paint.ScheduledUtilization              .50531    
+Drill Machine.NumberSeized                  108.00    
+Drill Machine.ScheduledUtilization          .74635    
+Blue paint.NumberSeized                     35.000    
+Blue paint.ScheduledUtilization             .71111    
+Green paint.NumberSeized                    33.000    
+Green paint.ScheduledUtilization            .74596    
+System.NumberOut                            93.000    
+
+Beginning replication 4 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 4 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             13.439     (Insuf)    6.1024     21.159         27    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         27    
+Entity 1.WaitTime                           7.4340     (Insuf)    .00000     23.981         27    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         27    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         27    
+Entity 1.TotalTime                          20.873     (Insuf)    8.9624     37.842         27    
+Entity 2.VATime                             14.342     (Insuf)    6.9450     23.736         28    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         28    
+Entity 2.WaitTime                           6.9928     (Insuf)    .00000     20.134         28    
+Entity 2.TranTime                           .00000     (Insuf)    .00000     .00000         28    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         28    
+Entity 2.TotalTime                          21.335     (Insuf)    11.440     40.894         28    
+Entity 3.VATime                             13.326     (Insuf)    6.5641     19.468         31    
+Entity 3.NVATime                            .00000     (Insuf)    .00000     .00000         31    
+Entity 3.WaitTime                           5.2809     (Insuf)    .00000     24.419         31    
+Entity 3.TranTime                           .00000     (Insuf)    .00000     .00000         31    
+Entity 3.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
+Entity 3.TotalTime                          18.607     (Insuf)    8.7472     35.271         31    
+Green Painting.Queue.WaitingTime            2.9817     (Insuf)    .00000     17.264         31    
+Red painting.Queue.WaitingTime              3.7260     (Insuf)    .00000     17.398         28    
+Drilling.Queue.WaitingTime                  2.5769     (Insuf)    .00000     11.451        102    
+Blue Painting.Queue.WaitingTime             4.1080     (Insuf)    .00000     19.044         28    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.2714     (Insuf)    .00000     4.0000     3.0000    
+Entity 2.WIP                                1.2445     (Insuf)    .00000     4.0000     .00000    
+Entity 3.WIP                                1.2071     (Insuf)    .00000     5.0000     1.0000    
+Red paint.NumberBusy                        .60253     (Insuf)    .00000     1.0000     .00000    
+Red paint.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Red paint.Utilization                       .60253     (Insuf)    .00000     1.0000     .00000    
+Drill Machine.NumberBusy                    .68654     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .68654     (Insuf)    .00000     1.0000     1.0000    
+Blue paint.NumberBusy                       .57923     (Insuf)    .00000     1.0000     1.0000    
+Blue paint.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Blue paint.Utilization                      .57923     (Insuf)    .00000     1.0000     1.0000    
+Green paint.NumberBusy                      .63312     (Insuf)    .00000     1.0000     .00000    
+Green paint.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Green paint.Utilization                     .63312     (Insuf)    .00000     1.0000     .00000    
+Green Painting.Queue.NumberInQueue          .19257     (Insuf)    .00000     3.0000     .00000    
+Red painting.Queue.NumberInQueue            .21735     (Insuf)    .00000     2.0000     .00000    
+Drilling.Queue.NumberInQueue                .54761     (Insuf)    .00000     4.0000     .00000    
+Blue Painting.Queue.NumberInQueue           .26416     (Insuf)    .00000     3.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           30.000    
+Entity 1.NumberOut                          27.000    
+Entity 2.NumberIn                           28.000    
+Entity 2.NumberOut                          28.000    
+Entity 3.NumberIn                           32.000    
+Entity 3.NumberOut                          31.000    
+Red paint.NumberSeized                      28.000    
+Red paint.ScheduledUtilization              .60253    
+Drill Machine.NumberSeized                  102.00    
+Drill Machine.ScheduledUtilization          .68654    
+Blue paint.NumberSeized                     28.000    
+Blue paint.ScheduledUtilization             .57923    
+Green paint.NumberSeized                    31.000    
+Green paint.ScheduledUtilization            .63312    
+System.NumberOut                            86.000    
+
+Beginning replication 5 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 5 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             14.138     (Insuf)    6.7116     25.295         30    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         30    
+Entity 1.WaitTime                           13.602     (Insuf)    .00000     30.538         30    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         30    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         30    
+Entity 1.TotalTime                          27.741     (Insuf)    7.4384     49.388         30    
+Entity 2.VATime                             13.252     (Insuf)    5.6218     19.957         39    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         39    
+Entity 2.WaitTime                           14.264     (Insuf)    .00000     37.488         39    
+Entity 2.TranTime                           .00000     (Insuf)    .00000     .00000         39    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         39    
+Entity 2.TotalTime                          27.517     (Insuf)    10.247     48.972         39    
+Entity 3.VATime                             14.519     (Insuf)    6.6542     21.337         31    
+Entity 3.NVATime                            .00000     (Insuf)    .00000     .00000         31    
+Entity 3.WaitTime                           41.441     (Insuf)    .00000     83.245         31    
+Entity 3.TranTime                           .00000     (Insuf)    .00000     .00000         31    
+Entity 3.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
+Entity 3.TotalTime                          55.961     (Insuf)    10.969     92.928         31    
+Green Painting.Queue.WaitingTime            31.736     (Insuf)    .00000     71.073         31    
+Red painting.Queue.WaitingTime              9.3573     (Insuf)    .00000     34.006         40    
+Drilling.Queue.WaitingTime                  6.2466     (Insuf)    .00000     20.318        116    
+Blue Painting.Queue.WaitingTime             6.7564     (Insuf)    .00000     20.099         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.8131     (Insuf)    .00000     4.0000     2.0000    
+Entity 2.WIP                                2.4102     (Insuf)    .00000     5.0000     5.0000    
+Entity 3.WIP                                3.6141     (Insuf)    .00000     9.0000     .00000    
+Red paint.NumberBusy                        .83505     (Insuf)    .00000     1.0000     1.0000    
+Red paint.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Red paint.Utilization                       .83505     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberBusy                    .77621     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .77621     (Insuf)    .00000     1.0000     1.0000    
+Blue paint.NumberBusy                       .68736     (Insuf)    .00000     1.0000     1.0000    
+Blue paint.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Blue paint.Utilization                      .68736     (Insuf)    .00000     1.0000     1.0000    
+Green paint.NumberBusy                      .69737     (Insuf)    .00000     1.0000     .00000    
+Green paint.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Green paint.Utilization                     .69737     (Insuf)    .00000     1.0000     .00000    
+Green Painting.Queue.NumberInQueue          2.0496     (Insuf)    .00000     7.0000     .00000    
+Red painting.Queue.NumberInQueue            .83436     (Insuf)    .00000     4.0000     3.0000    
+Drilling.Queue.NumberInQueue                1.5096     (Insuf)    .00000     7.0000     .00000    
+Blue Painting.Queue.NumberInQueue           .44785     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           32.000    
+Entity 1.NumberOut                          30.000    
+Entity 2.NumberIn                           44.000    
+Entity 2.NumberOut                          39.000    
+Entity 3.NumberIn                           31.000    
+Entity 3.NumberOut                          31.000    
+Red paint.NumberSeized                      40.000    
+Red paint.ScheduledUtilization              .83505    
+Drill Machine.NumberSeized                  116.00    
+Drill Machine.ScheduledUtilization          .77621    
+Blue paint.NumberSeized                     31.000    
+Blue paint.ScheduledUtilization             .68736    
+Green paint.NumberSeized                    31.000    
+Green paint.ScheduledUtilization            .69737    
+System.NumberOut                            100.00    
+
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Output Summary for 5 Replications
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           31.000     3.9258     28.000     36.000     5
+Entity 1.NumberOut                          28.800     5.0733     24.000     35.000     5
+Entity 2.NumberIn                           29.800     10.872     21.000     44.000     5
+Entity 2.NumberOut                          28.200     8.6636     20.000     39.000     5
+Entity 3.NumberIn                           31.600     3.6827     27.000     35.000     5
+Entity 3.NumberOut                          30.000     3.2846     26.000     33.000     5
+Red paint.NumberSeized                      28.800     8.8397     21.000     40.000     5
+Red paint.ScheduledUtilization              .60204     .17748     .46753     .83505     5
+Drill Machine.NumberSeized                  105.00     10.964     92.000     116.00     5
+Drill Machine.ScheduledUtilization          .71337     .06606     .63893     .77621     5
+Blue paint.NumberSeized                     29.400     4.6946     25.000     35.000     5
+Blue paint.ScheduledUtilization             .63365     .09209     .53520     .71111     5
+Green paint.NumberSeized                    30.400     2.7199     27.000     33.000     5
+Green paint.ScheduledUtilization            .65208     .08483     .58141     .74596     5
+System.NumberOut                            87.000     12.414     74.000     100.00     5
+
+Simulation run time: 0.08 minutes.
+Simulation run complete.

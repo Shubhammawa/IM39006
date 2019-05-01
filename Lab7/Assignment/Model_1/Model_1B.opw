@@ -1,0 +1,20 @@
+[RESOURCES]
+Red paint
+Drill Machine
+Blue paint
+Green paint
+[VARIABLES]
+Blue Painting.NumberOut
+Green Painting.NumberIn
+Red painting.NumberIn
+Drilling.NumberOut
+Drilling.NumberIn
+Red.NumberOut
+Decide 1.NumberOut True
+Green Painting.NumberOut
+Blue Painting.NumberIn
+Blue.NumberOut
+Decide 1.NumberOut False
+Exit.NumberOut
+Red painting.NumberOut
+Green.NumberOut

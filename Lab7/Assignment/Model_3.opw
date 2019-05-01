@@ -1,0 +1,10 @@
+[RESOURCES]
+Resource 1
+Resource 2
+[VARIABLES]
+Applications.NumberOut
+Chuck and Doris.NumberOut
+Alfie and Betty.NumberIn
+Alfie and Betty.NumberOut
+Dispose 1.NumberOut
+Chuck and Doris.NumberIn

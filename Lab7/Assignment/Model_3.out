@@ -1,0 +1,57 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 160.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             4.6497     (Insuf)    .47673     12.771         96    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         96    
+Entity 1.WaitTime                           5.1497     (Insuf)    .00000     14.023         96    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         96    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         96    
+Entity 1.TotalTime                          9.7995     (Insuf)    1.4719     20.705         96    
+Chuck and Doris.Queue.WaitingTime           2.6374     (Insuf)    .00000     13.889         98    
+Alfie and Betty.Queue.WaitingTime           2.7222     (Insuf)    .00000     9.0323        110    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                7.1284     (Insuf)    .00000     24.000     24.000    
+Resource 1.NumberBusy                       1.5679     (Insuf)    .00000     2.0000     2.0000    
+Resource 1.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Resource 1.Utilization                      .78398     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       1.4565     (Insuf)    .00000     2.0000     2.0000    
+Resource 2.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Resource 2.Utilization                      .72828     (Insuf)    .00000     1.0000     1.0000    
+Chuck and Doris.Queue.NumberInQueue         2.0095     (Insuf)    .00000     12.000     10.000    
+Alfie and Betty.Queue.NumberInQueue         2.0943     (Insuf)    .00000     10.000     10.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           120.00    
+Entity 1.NumberOut                          96.000    
+Resource 1.NumberSeized                     110.00    
+Resource 1.ScheduledUtilization             .78398    
+Resource 2.NumberSeized                     98.000    
+Resource 2.ScheduledUtilization             .72828    
+System.NumberOut                            96.000    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

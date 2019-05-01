@@ -1,0 +1,262 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             4.3456     (Insuf)    1.3664     14.525         93    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         93    
+Entity 1.WaitTime                           10.164     (Insuf)    .00000     44.953         93    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         93    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         93    
+Entity 1.TotalTime                          14.509     (Insuf)    2.3354     54.679         93    
+Drilling.Queue.WaitingTime                  8.1487     (Insuf)    .00000     25.955        116    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.8112     (Insuf)    .00000     9.0000     .00000    
+Drill Machine.NumberBusy                    .84197     (Insuf)    .00000     1.0000     .00000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .84197     (Insuf)    .00000     1.0000     .00000    
+Drilling.Queue.NumberInQueue                1.9692     (Insuf)    .00000     8.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           93.000    
+Entity 1.NumberOut                          93.000    
+Drill Machine.NumberSeized                  116.00    
+Drill Machine.ScheduledUtilization          .84197    
+System.NumberOut                            93.000    
+
+Beginning replication 2 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 2 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             3.9177     (Insuf)    1.3095     12.260         81    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         81    
+Entity 1.WaitTime                           2.5087     (Insuf)    .00000     14.969         81    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         81    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         81    
+Entity 1.TotalTime                          6.4264     (Insuf)    2.0755     20.232         81    
+Drilling.Queue.WaitingTime                  2.3500     (Insuf)    .00000     11.989         95    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.1886     (Insuf)    .00000     6.0000     5.0000    
+Drill Machine.NumberBusy                    .67375     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .67375     (Insuf)    .00000     1.0000     1.0000    
+Drilling.Queue.NumberInQueue                .51487     (Insuf)    .00000     5.0000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           86.000    
+Entity 1.NumberOut                          81.000    
+Drill Machine.NumberSeized                  95.000    
+Drill Machine.ScheduledUtilization          .67375    
+System.NumberOut                            81.000    
+
+Beginning replication 3 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 3 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             3.9145     (Insuf)    1.2022     11.977        103    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        103    
+Entity 1.WaitTime                           12.027     (Insuf)    .00000     63.965        103    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        103    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        103    
+Entity 1.TotalTime                          15.942     (Insuf)    1.2022     75.942        103    
+Drilling.Queue.WaitingTime                  10.091     (Insuf)    .00000     37.020        123    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.4313     (Insuf)    .00000     11.000     2.0000    
+Drill Machine.NumberBusy                    .84052     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .84052     (Insuf)    .00000     1.0000     1.0000    
+Drilling.Queue.NumberInQueue                2.5907     (Insuf)    .00000     10.000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           105.00    
+Entity 1.NumberOut                          103.00    
+Drill Machine.NumberSeized                  123.00    
+Drill Machine.ScheduledUtilization          .84052    
+System.NumberOut                            103.00    
+
+Beginning replication 4 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 4 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             3.7587     (Insuf)    1.1692     11.428         95    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         95    
+Entity 1.WaitTime                           3.7880     (Insuf)    .00000     17.400         95    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         95    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         95    
+Entity 1.TotalTime                          7.5467     (Insuf)    1.9055     28.828         95    
+Drilling.Queue.WaitingTime                  3.3632     (Insuf)    .00000     14.285        107    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.4936     (Insuf)    .00000     6.0000     .00000    
+Drill Machine.NumberBusy                    .74391     (Insuf)    .00000     1.0000     .00000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .74391     (Insuf)    .00000     1.0000     .00000    
+Drilling.Queue.NumberInQueue                .74972     (Insuf)    .00000     5.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           95.000    
+Entity 1.NumberOut                          95.000    
+Drill Machine.NumberSeized                  107.00    
+Drill Machine.ScheduledUtilization          .74391    
+System.NumberOut                            95.000    
+
+Beginning replication 5 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 5 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             3.4231     (Insuf)    1.2696     10.175         91    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         91    
+Entity 1.WaitTime                           2.7178     (Insuf)    .00000     12.941         91    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         91    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         91    
+Entity 1.TotalTime                          6.1410     (Insuf)    1.2696     17.918         91    
+Drilling.Queue.WaitingTime                  2.5237     (Insuf)    .00000     8.9931         98    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.1642     (Insuf)    .00000     4.0000     .00000    
+Drill Machine.NumberBusy                    .64897     (Insuf)    .00000     1.0000     .00000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .64897     (Insuf)    .00000     1.0000     .00000    
+Drilling.Queue.NumberInQueue                .51526     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           91.000    
+Entity 1.NumberOut                          91.000    
+Drill Machine.NumberSeized                  98.000    
+Drill Machine.ScheduledUtilization          .64897    
+System.NumberOut                            91.000    
+
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Output Summary for 5 Replications
+
+Project: Unnamed Project                                             Run execution date : 3/15/2019
+Analyst: iit                                                         Model revision date: 3/15/2019
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           94.000     8.6902     86.000     105.00     5
+Entity 1.NumberOut                          92.600     9.8381     81.000     103.00     5
+Drill Machine.NumberSeized                  107.80     14.673     95.000     123.00     5
+Drill Machine.ScheduledUtilization          .74982     .11227     .64897     .84197     5
+System.NumberOut                            92.600     9.8381     81.000     103.00     5
+
+Simulation run time: 0.17 minutes.
+Simulation run complete.
