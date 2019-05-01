@@ -1,0 +1,7 @@
+[RESOURCES]
+Technicians
+[VARIABLES]
+Machine Arrival.NumberOut
+Dispose 1.NumberOut
+Repair.NumberIn
+Repair.NumberOut

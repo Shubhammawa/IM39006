@@ -1,0 +1,16 @@
+[RESOURCES]
+Washing Machine
+Drilling machine
+Inspector
+[VARIABLES]
+Washing.NumberOut
+Drilling.NumberOut
+Parts Arival.NumberOut
+Drilling.NumberIn
+Decide 1.NumberOut True
+Inspection.NumberIn
+Parts Passed.NumberOut
+Inspection.NumberOut
+Parts Failed.NumberOut
+Decide 1.NumberOut False
+Washing.NumberIn

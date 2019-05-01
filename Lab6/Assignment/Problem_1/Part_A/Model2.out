@@ -1,0 +1,336 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/ 1/2019
+Analyst: iit                                                         Model revision date: 3/ 1/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             11.438     (Insuf)    8.3500     15.677         89    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         89    
+Entity 1.WaitTime                           4.8611     (Insuf)    .00000     15.066         89    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         89    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         89    
+Entity 1.TotalTime                          16.299     (Insuf)    8.3887     27.354         89    
+Inspection.Queue.WaitingTime                2.1083     (Insuf)    .00000     8.4438         90    
+Drilling.Queue.WaitingTime                  1.9829     (Insuf)    .00000     10.500         93    
+Washing.Queue.WaitingTime                   .83353     (Insuf)    .00000     4.2153         93    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.1177     (Insuf)    .00000     7.0000     4.0000    
+Washing Machine.NumberBusy                  .66555     (Insuf)    .00000     1.0000     1.0000    
+Washing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Washing Machine.Utilization                 .66555     (Insuf)    .00000     1.0000     1.0000    
+Drilling machine.NumberBusy                 .66402     (Insuf)    .00000     1.0000     .00000    
+Drilling machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling machine.Utilization                .66402     (Insuf)    .00000     1.0000     .00000    
+Inspector.NumberBusy                        .83627     (Insuf)    .00000     1.0000     1.0000    
+Inspector.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspector.Utilization                       .83627     (Insuf)    .00000     1.0000     1.0000    
+Inspection.Queue.NumberInQueue              .40625     (Insuf)    .00000     3.0000     2.0000    
+Drilling.Queue.NumberInQueue                .38420     (Insuf)    .00000     3.0000     .00000    
+Washing.Queue.NumberInQueue                 .16150     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           93.000    
+Entity 1.NumberOut                          89.000    
+Washing Machine.NumberSeized                93.000    
+Washing Machine.ScheduledUtilization        .66555    
+Drilling machine.NumberSeized               93.000    
+Drilling machine.ScheduledUtilization       .66402    
+Inspector.NumberSeized                      90.000    
+Inspector.ScheduledUtilization              .83627    
+System.NumberOut                            89.000    
+
+Beginning replication 2 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 2 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/ 1/2019
+Analyst: iit                                                         Model revision date: 3/ 1/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             11.249     (Insuf)    7.5002     14.418         83    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         83    
+Entity 1.WaitTime                           5.3779     (Insuf)    .00000     17.199         83    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         83    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         83    
+Entity 1.TotalTime                          16.627     (Insuf)    8.8221     28.396         83    
+Inspection.Queue.WaitingTime                2.6963     (Insuf)    .00000     9.5611         84    
+Drilling.Queue.WaitingTime                  1.7625     (Insuf)    .00000     6.7234         86    
+Washing.Queue.WaitingTime                   .85321     (Insuf)    .00000     5.9078         85    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.9299     (Insuf)    .00000     7.0000     4.0000    
+Washing Machine.NumberBusy                  .60098     (Insuf)    .00000     1.0000     1.0000    
+Washing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Washing Machine.Utilization                 .60098     (Insuf)    .00000     1.0000     1.0000    
+Drilling machine.NumberBusy                 .59715     (Insuf)    .00000     1.0000     1.0000    
+Drilling machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling machine.Utilization                .59715     (Insuf)    .00000     1.0000     1.0000    
+Inspector.NumberBusy                        .78331     (Insuf)    .00000     1.0000     1.0000    
+Inspector.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspector.Utilization                       .78331     (Insuf)    .00000     1.0000     1.0000    
+Inspection.Queue.NumberInQueue              .47185     (Insuf)    .00000     3.0000     .00000    
+Drilling.Queue.NumberInQueue                .32558     (Insuf)    .00000     3.0000     1.0000    
+Washing.Queue.NumberInQueue                 .15109     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           87.000    
+Entity 1.NumberOut                          83.000    
+Washing Machine.NumberSeized                85.000    
+Washing Machine.ScheduledUtilization        .60098    
+Drilling machine.NumberSeized               86.000    
+Drilling machine.ScheduledUtilization       .59715    
+Inspector.NumberSeized                      84.000    
+Inspector.ScheduledUtilization              .78331    
+System.NumberOut                            83.000    
+
+Beginning replication 3 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 3 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/ 1/2019
+Analyst: iit                                                         Model revision date: 3/ 1/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             11.017     (Insuf)    7.7730     15.703         95    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         95    
+Entity 1.WaitTime                           11.441     (Insuf)    .00000     29.682         95    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         95    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         95    
+Entity 1.TotalTime                          22.458     (Insuf)    8.3461     40.909         95    
+Inspection.Queue.WaitingTime                6.6340     (Insuf)    .00000     22.205         96    
+Drilling.Queue.WaitingTime                  4.1545     (Insuf)    .00000     19.898        105    
+Washing.Queue.WaitingTime                   1.3977     (Insuf)    .00000     7.2880        100    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.9222     (Insuf)    .00000     13.000     10.000    
+Washing Machine.NumberBusy                  .69822     (Insuf)    .00000     1.0000     1.0000    
+Washing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Washing Machine.Utilization                 .69822     (Insuf)    .00000     1.0000     1.0000    
+Drilling machine.NumberBusy                 .70060     (Insuf)    .00000     1.0000     1.0000    
+Drilling machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling machine.Utilization                .70060     (Insuf)    .00000     1.0000     1.0000    
+Inspector.NumberBusy                        .89480     (Insuf)    .00000     1.0000     1.0000    
+Inspector.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspector.Utilization                       .89480     (Insuf)    .00000     1.0000     1.0000    
+Inspection.Queue.NumberInQueue              1.3877     (Insuf)    .00000     5.0000     3.0000    
+Drilling.Queue.NumberInQueue                .90881     (Insuf)    .00000     6.0000     .00000    
+Washing.Queue.NumberInQueue                 .33206     (Insuf)    .00000     4.0000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           105.00    
+Entity 1.NumberOut                          95.000    
+Washing Machine.NumberSeized                100.00    
+Washing Machine.ScheduledUtilization        .69822    
+Drilling machine.NumberSeized               105.00    
+Drilling machine.ScheduledUtilization       .70060    
+Inspector.NumberSeized                      96.000    
+Inspector.ScheduledUtilization              .89480    
+System.NumberOut                            95.000    
+
+Beginning replication 4 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 4 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/ 1/2019
+Analyst: iit                                                         Model revision date: 3/ 1/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             11.181     (Insuf)    8.1407     14.911         98    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         98    
+Entity 1.WaitTime                           12.017     (Insuf)    .00000     37.296         98    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         98    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         98    
+Entity 1.TotalTime                          23.198     (Insuf)    10.068     47.065         98    
+Inspection.Queue.WaitingTime                8.8440     (Insuf)    .00000     28.163         99    
+Drilling.Queue.WaitingTime                  2.5203     (Insuf)    .00000     15.327        106    
+Washing.Queue.WaitingTime                   1.4302     (Insuf)    .00000     5.2809        105    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.1828     (Insuf)    .00000     12.000     8.0000    
+Washing Machine.NumberBusy                  .74874     (Insuf)    .00000     1.0000     1.0000    
+Washing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Washing Machine.Utilization                 .74874     (Insuf)    .00000     1.0000     1.0000    
+Drilling machine.NumberBusy                 .71576     (Insuf)    .00000     1.0000     1.0000    
+Drilling machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling machine.Utilization                .71576     (Insuf)    .00000     1.0000     1.0000    
+Inspector.NumberBusy                        .92517     (Insuf)    .00000     1.0000     1.0000    
+Inspector.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspector.Utilization                       .92517     (Insuf)    .00000     1.0000     1.0000    
+Inspection.Queue.NumberInQueue              1.9237     (Insuf)    .00000     7.0000     5.0000    
+Drilling.Queue.NumberInQueue                .55658     (Insuf)    .00000     5.0000     .00000    
+Washing.Queue.NumberInQueue                 .31286     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           106.00    
+Entity 1.NumberOut                          98.000    
+Washing Machine.NumberSeized                105.00    
+Washing Machine.ScheduledUtilization        .74874    
+Drilling machine.NumberSeized               106.00    
+Drilling machine.ScheduledUtilization       .71576    
+Inspector.NumberSeized                      99.000    
+Inspector.ScheduledUtilization              .92517    
+System.NumberOut                            98.000    
+
+Beginning replication 5 of 5
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 5 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/ 1/2019
+Analyst: iit                                                         Model revision date: 3/ 1/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             10.909     (Insuf)    7.4397     14.329         97    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         97    
+Entity 1.WaitTime                           15.103     (Insuf)    .00000     37.528         97    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         97    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         97    
+Entity 1.TotalTime                          26.013     (Insuf)    10.074     46.740         97    
+Inspection.Queue.WaitingTime                11.058     (Insuf)    .00000     30.303         98    
+Drilling.Queue.WaitingTime                  2.4799     (Insuf)    .00000     11.257        103    
+Washing.Queue.WaitingTime                   1.5360     (Insuf)    .00000     8.1605        102    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.4926     (Insuf)    .00000     11.000     6.0000    
+Washing Machine.NumberBusy                  .70542     (Insuf)    .00000     1.0000     1.0000    
+Washing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Washing Machine.Utilization                 .70542     (Insuf)    .00000     1.0000     1.0000    
+Drilling machine.NumberBusy                 .64709     (Insuf)    .00000     1.0000     1.0000    
+Drilling machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling machine.Utilization                .64709     (Insuf)    .00000     1.0000     1.0000    
+Inspector.NumberBusy                        .91864     (Insuf)    .00000     1.0000     1.0000    
+Inspector.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspector.Utilization                       .91864     (Insuf)    .00000     1.0000     1.0000    
+Inspection.Queue.NumberInQueue              2.3629     (Insuf)    .00000     7.0000     3.0000    
+Drilling.Queue.NumberInQueue                .53216     (Insuf)    .00000     4.0000     .00000    
+Washing.Queue.NumberInQueue                 .32640     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           103.00    
+Entity 1.NumberOut                          97.000    
+Washing Machine.NumberSeized                102.00    
+Washing Machine.ScheduledUtilization        .70542    
+Drilling machine.NumberSeized               103.00    
+Drilling machine.ScheduledUtilization       .64709    
+Inspector.NumberSeized                      98.000    
+Inspector.ScheduledUtilization              .91864    
+System.NumberOut                            97.000    
+
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Output Summary for 5 Replications
+
+Project: Unnamed Project                                             Run execution date : 3/ 1/2019
+Analyst: iit                                                         Model revision date: 3/ 1/2019
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           98.800     10.401     87.000     106.00     5
+Entity 1.NumberOut                          92.400     7.8320     83.000     98.000     5
+Washing Machine.NumberSeized                97.000     9.9704     85.000     105.00     5
+Washing Machine.ScheduledUtilization        .68378     .06823     .60098     .74874     5
+Drilling machine.NumberSeized               98.600     10.844     86.000     106.00     5
+Drilling machine.ScheduledUtilization       .66492     .05813     .59715     .71576     5
+Inspector.NumberSeized                      93.400     7.8320     84.000     99.000     5
+Inspector.ScheduledUtilization              .87164     .07517     .78331     .92517     5
+System.NumberOut                            92.400     7.8320     83.000     98.000     5
+
+Simulation run time: 0.28 minutes.
+Simulation run complete.

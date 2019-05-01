@@ -1,0 +1,7 @@
+[RESOURCES]
+Drilling machine
+[VARIABLES]
+Drilling.NumberOut
+Parts Arival.NumberOut
+Drilling.NumberIn
+Dispose 1.NumberOut

@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/ 1/2019
+Analyst: iit                                                         Model revision date: 3/ 1/2019
+
+Replication ended at time      : 160.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.1542     (Insuf)    1.1751     3.5248          5    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          5    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          5    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          5    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000          5    
+Entity 1.TotalTime                          2.1542     (Insuf)    1.1751     3.5248          5    
+Repair.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000          5    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .06732     (Insuf)    .00000     1.0000     .00000    
+Technicians.NumberBusy                      .06732     (Insuf)    .00000     1.0000     .00000    
+Technicians.NumberScheduled                 2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Technicians.Utilization                     .03366     (Insuf)    .00000     .50000     .00000    
+Repair.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           5.0000    
+Entity 1.NumberOut                          5.0000    
+Technicians.NumberSeized                    5.0000    
+Technicians.ScheduledUtilization            .03366    
+System.NumberOut                            5.0000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

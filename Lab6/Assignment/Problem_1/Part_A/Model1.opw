@@ -1,0 +1,10 @@
+[RESOURCES]
+Washing Machine
+Drilling machine
+[VARIABLES]
+Washing.NumberOut
+Drilling.NumberOut
+Parts Arival.NumberOut
+Drilling.NumberIn
+Dispose 1.NumberOut
+Washing.NumberIn
