@@ -1,0 +1,1668 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            7.8004     (Insuf)    .00000     19.504         14    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         14    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         14    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         14    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         14    
+breakdown.TotalTime                         7.8004     (Insuf)    .00000     19.504         14    
+Entity 1.VATime                             4.4642     .59945     .01473     45.207        651    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        651    
+Entity 1.WaitTime                           27.322     (Corr)     .00000     974.26        651    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        651    
+Entity 1.OtherTime                          2.2396     .09895     2.0000     8.0000        651    
+Entity 1.TotalTime                          34.026     (Corr)     2.2957     1024.8        651    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          8    
+Teller.Queue.WaitingTime                    4.1675     1.3321     .00000     25.739        717    
+Hold 1.Queue.WaitingTime                    215.72     (Insuf)    .48867     701.35         54    
+Manager.Queue.WaitingTime                   75.731     (Insuf)    .00000     242.26         54    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .03569     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                8.3656     (Corr)     .00000     22.000     12.000    
+ManPower.NumberBusy                         .69230     .05360     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .69230     .05360     .00000     1.0000     1.0000    
+system down.NumberBusy                      .03569     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .03569     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .28110     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .28110     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .97651     .34690     .00000     9.0000     .00000    
+Hold 1.Queue.NumberInQueue                  4.5915     (Insuf)    .00000     15.000     11.000    
+Manager.Queue.NumberInQueue                 1.3364     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        663  Infinite
+Record 2                                         54  Infinite
+Record 3                                          8  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          14.000    
+breakdown.NumberOut                         14.000    
+Entity 1.NumberIn                           663.00    
+Entity 1.NumberOut                          651.00    
+ManPower.NumberSeized                       717.00    
+ManPower.ScheduledUtilization               .69230    
+system down.NumberSeized                    8.0000    
+system down.ScheduledUtilization            .03569    
+ManPower 2.NumberSeized                     54.000    
+ManPower 2.ScheduledUtilization             .28110    
+System.NumberOut                            665.00    
+
+Beginning replication 2 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 2 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            8.0941     (Insuf)    .00000     19.322         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         8.0941     (Insuf)    .00000     19.322         13    
+Entity 1.VATime                             5.1820     .82996     .09544     78.511        594    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        594    
+Entity 1.WaitTime                           37.069     (Corr)     .00000     1475.0        594    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        594    
+Entity 1.OtherTime                          2.3484     .13104     2.0000     14.000        594    
+Entity 1.TotalTime                          44.599     (Corr)     2.0954     1567.5        594    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          8    
+Teller.Queue.WaitingTime                    2.6583     .63368     .00000     16.386        668    
+Hold 1.Queue.WaitingTime                    224.25     (Insuf)    15.875     649.54         69    
+Manager.Queue.WaitingTime                   69.189     (Insuf)    .00000     228.83         69    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .03439     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                8.7925     (Corr)     .00000     22.000     5.0000    
+ManPower.NumberBusy                         .64972     .04541     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .64972     .04541     .00000     1.0000     1.0000    
+system down.NumberBusy                      .03439     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .03439     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .36042     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .36042     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .58031     .18717     .00000     6.0000     .00000    
+Hold 1.Queue.NumberInQueue                  5.1827     (Insuf)    .00000     15.000     3.0000    
+Manager.Queue.NumberInQueue                 1.5601     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        599  Infinite
+Record 2                                         69  Infinite
+Record 3                                          8  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           599.00    
+Entity 1.NumberOut                          594.00    
+ManPower.NumberSeized                       668.00    
+ManPower.ScheduledUtilization               .64972    
+system down.NumberSeized                    8.0000    
+system down.ScheduledUtilization            .03439    
+ManPower 2.NumberSeized                     69.000    
+ManPower 2.ScheduledUtilization             .36042    
+System.NumberOut                            607.00    
+
+Beginning replication 3 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 3 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            8.6375     (Insuf)    .00000     18.627         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         8.6375     (Insuf)    .00000     18.627         13    
+Entity 1.VATime                             5.3666     .88354     .00000     56.033        566    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        566    
+Entity 1.WaitTime                           47.406     (Corr)     .00000     1269.7        566    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        566    
+Entity 1.OtherTime                          2.3869     (Corr)     2.0000     11.000        566    
+Entity 1.TotalTime                          55.160     (Corr)     2.0000     1336.7        566    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          9    
+Teller.Queue.WaitingTime                    3.2113     1.0175     .00000     25.162        649    
+Hold 1.Queue.WaitingTime                    245.21     (Insuf)    .86334     743.59         74    
+Manager.Queue.WaitingTime                   92.736     (Insuf)    .00000     337.37         74    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .03670     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                10.831     (Corr)     .00000     31.000     9.0000    
+ManPower.NumberBusy                         .63368     .05000     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .63368     .05000     .00000     1.0000     1.0000    
+system down.NumberBusy                      .03670     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .03670     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .37331     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .37331     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .68109     .30159     .00000     8.0000     .00000    
+Hold 1.Queue.NumberInQueue                  6.4514     (Insuf)    .00000     23.000     8.0000    
+Manager.Queue.NumberInQueue                 2.2426     (Insuf)    .00000     22.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        575  Infinite
+Record 2                                         74  Infinite
+Record 3                                          9  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           575.00    
+Entity 1.NumberOut                          566.00    
+ManPower.NumberSeized                       649.00    
+ManPower.ScheduledUtilization               .63368    
+system down.NumberSeized                    9.0000    
+system down.ScheduledUtilization            .03670    
+ManPower 2.NumberSeized                     74.000    
+ManPower 2.ScheduledUtilization             .37331    
+System.NumberOut                            579.00    
+
+Beginning replication 4 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 4 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            4.4456     (Insuf)    .00000     18.582         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         4.4456     (Insuf)    .00000     18.582         13    
+Entity 1.VATime                             4.3473     (Corr)     .00000     42.446        630    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        630    
+Entity 1.WaitTime                           52.281     (Corr)     .00000     1384.5        630    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        630    
+Entity 1.OtherTime                          2.2285     (Corr)     2.0000     8.0000        630    
+Entity 1.TotalTime                          58.857     (Corr)     2.0000     1430.7        630    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          4    
+Teller.Queue.WaitingTime                    2.9721     .60715     .00000     22.166        699    
+Hold 1.Queue.WaitingTime                    479.42     (Insuf)    9.6105     1166.5         58    
+Manager.Queue.WaitingTime                   151.92     (Insuf)    .00000     446.26         54    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .01889     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                15.276     (Corr)     .00000     37.000     20.000    
+ManPower.NumberBusy                         .66859     .06068     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .66859     .06068     .00000     1.0000     1.0000    
+system down.NumberBusy                      .01889     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .01889     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .26978     (Insuf)    .00000     1.0000     1.0000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .26978     (Insuf)    .00000     1.0000     1.0000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .68351     .13467     .00000     9.0000     3.0000    
+Hold 1.Queue.NumberInQueue                  9.9116     (Insuf)    .00000     33.000     10.000    
+Manager.Queue.NumberInQueue                 3.2652     (Insuf)    .00000     32.000     4.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        650  Infinite
+Record 2                                         53  Infinite
+Record 3                                          4  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           650.00    
+Entity 1.NumberOut                          630.00    
+ManPower.NumberSeized                       699.00    
+ManPower.ScheduledUtilization               .66859    
+system down.NumberSeized                    4.0000    
+system down.ScheduledUtilization            .01889    
+ManPower 2.NumberSeized                     54.000    
+ManPower 2.ScheduledUtilization             .26978    
+System.NumberOut                            643.00    
+
+Beginning replication 5 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 5 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            5.0831     (Insuf)    .00000     19.427         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         5.0831     (Insuf)    .00000     19.427         13    
+Entity 1.VATime                             4.7605     (Corr)     .00000     59.315        626    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        626    
+Entity 1.WaitTime                           55.247     (Corr)     .00000     1575.3        626    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        626    
+Entity 1.OtherTime                          2.2779     (Corr)     2.0000     11.000        626    
+Entity 1.TotalTime                          62.285     (Corr)     2.2761     1645.6        626    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          5    
+Teller.Queue.WaitingTime                    4.7635     2.3877     .00000     37.860        691    
+Hold 1.Queue.WaitingTime                    412.07     (Insuf)    50.806     1199.4         60    
+Manager.Queue.WaitingTime                   119.38     (Insuf)    .00000     399.38         60    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .02160     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                13.031     (Corr)     .00000     29.000     8.0000    
+ManPower.NumberBusy                         .67908     (Corr)     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .67908     (Corr)     .00000     1.0000     1.0000    
+system down.NumberBusy                      .02160     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .02160     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .31069     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .31069     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  1.0803     .62068     .00000     13.000     3.0000    
+Hold 1.Queue.NumberInQueue                  8.1483     (Insuf)    .00000     26.000     3.0000    
+Manager.Queue.NumberInQueue                 2.3409     (Insuf)    .00000     25.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        634  Infinite
+Record 2                                         60  Infinite
+Record 3                                          5  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           634.00    
+Entity 1.NumberOut                          626.00    
+ManPower.NumberSeized                       691.00    
+ManPower.ScheduledUtilization               .67908    
+system down.NumberSeized                    5.0000    
+system down.ScheduledUtilization            .02160    
+ManPower 2.NumberSeized                     60.000    
+ManPower 2.ScheduledUtilization             .31069    
+System.NumberOut                            639.00    
+
+Beginning replication 6 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 6 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            5.7216     (Insuf)    .00000     18.396         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         5.7216     (Insuf)    .00000     18.396         13    
+Entity 1.VATime                             4.9802     (Corr)     .19300     46.330        622    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        622    
+Entity 1.WaitTime                           55.283     (Corr)     .00000     1532.7        622    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        622    
+Entity 1.OtherTime                          2.3279     (Corr)     2.0000     8.0000        622    
+Entity 1.TotalTime                          62.591     (Corr)     2.5533     1578.8        622    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          6    
+Teller.Queue.WaitingTime                    3.2090     .89145     .00000     19.685        700    
+Hold 1.Queue.WaitingTime                    337.11     (Insuf)    11.392     906.28         68    
+Manager.Queue.WaitingTime                   135.88     (Insuf)    .00000     409.70         68    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .02431     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                13.511     (Corr)     .00000     34.000     10.000    
+ManPower.NumberBusy                         .67755     .06378     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .67755     .06378     .00000     1.0000     1.0000    
+system down.NumberBusy                      .02431     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .02431     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .34487     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .34487     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .73409     .27519     .00000     6.0000     .00000    
+Hold 1.Queue.NumberInQueue                  8.2543     (Insuf)    .00000     27.000     9.0000    
+Manager.Queue.NumberInQueue                 3.0196     (Insuf)    .00000     26.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        632  Infinite
+Record 2                                         68  Infinite
+Record 3                                          6  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           632.00    
+Entity 1.NumberOut                          622.00    
+ManPower.NumberSeized                       700.00    
+ManPower.ScheduledUtilization               .67755    
+system down.NumberSeized                    6.0000    
+system down.ScheduledUtilization            .02431    
+ManPower 2.NumberSeized                     68.000    
+ManPower 2.ScheduledUtilization             .34487    
+System.NumberOut                            635.00    
+
+Beginning replication 7 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 7 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            5.2735     (Insuf)    .00000     17.821         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         5.2735     (Insuf)    .00000     17.821         13    
+Entity 1.VATime                             4.6884     (Corr)     .37563     39.706        575    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        575    
+Entity 1.WaitTime                           43.550     (Corr)     .00000     1162.7        575    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        575    
+Entity 1.OtherTime                          2.2556     (Corr)     2.0000     8.0000        575    
+Entity 1.TotalTime                          50.494     (Corr)     2.3920     1210.4        575    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          5    
+Teller.Queue.WaitingTime                    2.4683     .64308     .00000     16.967        636    
+Hold 1.Queue.WaitingTime                    377.62     (Insuf)    39.370     956.66         49    
+Manager.Queue.WaitingTime                   102.22     (Insuf)    .00000     295.76         49    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .02240     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                10.300     (Corr)     .00000     23.000     13.000    
+ManPower.NumberBusy                         .63333     .05359     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .63333     .05359     .00000     1.0000     1.0000    
+system down.NumberBusy                      .02240     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .02240     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .25734     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .25734     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .51304     .18476     .00000     6.0000     .00000    
+Hold 1.Queue.NumberInQueue                  6.8265     (Insuf)    .00000     19.000     11.000    
+Manager.Queue.NumberInQueue                 1.6369     (Insuf)    .00000     18.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        587  Infinite
+Record 2                                         49  Infinite
+Record 3                                          5  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           588.00    
+Entity 1.NumberOut                          575.00    
+ManPower.NumberSeized                       636.00    
+ManPower.ScheduledUtilization               .63333    
+system down.NumberSeized                    5.0000    
+system down.ScheduledUtilization            .02240    
+ManPower 2.NumberSeized                     49.000    
+ManPower 2.ScheduledUtilization             .25734    
+System.NumberOut                            588.00    
+
+Beginning replication 8 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 8 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            6.7582     (Insuf)    .00000     18.537         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         6.7582     (Insuf)    .00000     18.537         13    
+Entity 1.VATime                             4.4337     .70722     .44160     40.909        599    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        599    
+Entity 1.WaitTime                           24.589     13.522     .00000     861.12        599    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        599    
+Entity 1.OtherTime                          2.2253     .11398     2.0000     8.0000        599    
+Entity 1.TotalTime                          31.248     14.261     2.4416     910.00        599    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          7    
+Teller.Queue.WaitingTime                    3.2687     .79985     .00000     19.556        649    
+Hold 1.Queue.WaitingTime                    227.34     (Insuf)    7.4722     612.60         45    
+Manager.Queue.WaitingTime                   53.179     (Insuf)    .00000     129.95         45    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .02871     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                6.3424     (Corr)     .00000     15.000     5.0000    
+ManPower.NumberBusy                         .63907     .06544     .00000     1.0000     .00000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .63907     .06544     .00000     1.0000     .00000    
+system down.NumberBusy                      .02871     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .02871     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .23496     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .23496     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .69328     .23073     .00000     6.0000     .00000    
+Hold 1.Queue.NumberInQueue                  3.5534     (Insuf)    .00000     9.0000     5.0000    
+Manager.Queue.NumberInQueue                 .78206     (Insuf)    .00000     8.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        604  Infinite
+Record 2                                         45  Infinite
+Record 3                                          7  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           604.00    
+Entity 1.NumberOut                          599.00    
+ManPower.NumberSeized                       649.00    
+ManPower.ScheduledUtilization               .63907    
+system down.NumberSeized                    7.0000    
+system down.ScheduledUtilization            .02871    
+ManPower 2.NumberSeized                     45.000    
+ManPower 2.ScheduledUtilization             .23496    
+System.NumberOut                            612.00    
+
+Beginning replication 9 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 9 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            6.8681     (Insuf)    .00000     19.806         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         6.8681     (Insuf)    .00000     19.806         13    
+Entity 1.VATime                             4.5878     (Corr)     .07750     58.990        624    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        624    
+Entity 1.WaitTime                           55.130     (Corr)     .00000     1494.0        624    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        624    
+Entity 1.OtherTime                          2.2548     (Corr)     2.0000     11.000        624    
+Entity 1.TotalTime                          61.973     (Corr)     2.6266     1564.0        624    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          6    
+Teller.Queue.WaitingTime                    3.9909     2.5159     .00000     31.237        687    
+Hold 1.Queue.WaitingTime                    459.08     (Insuf)    19.039     1456.5         55    
+Manager.Queue.WaitingTime                   123.31     (Insuf)    .00000     365.64         54    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .02918     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                12.909     (Corr)     .00000     29.000     11.000    
+ManPower.NumberBusy                         .66844     .06536     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .66844     .06536     .00000     1.0000     1.0000    
+system down.NumberBusy                      .02918     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .02918     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .27701     (Insuf)    .00000     1.0000     1.0000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .27701     (Insuf)    .00000     1.0000     1.0000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .89601     .62321     .00000     10.000     .00000    
+Hold 1.Queue.NumberInQueue                  8.3790     (Insuf)    .00000     24.000     6.0000    
+Manager.Queue.NumberInQueue                 2.2221     (Insuf)    .00000     23.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        634  Infinite
+Record 2                                         53  Infinite
+Record 3                                          6  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           635.00    
+Entity 1.NumberOut                          624.00    
+ManPower.NumberSeized                       687.00    
+ManPower.ScheduledUtilization               .66844    
+system down.NumberSeized                    6.0000    
+system down.ScheduledUtilization            .02918    
+ManPower 2.NumberSeized                     54.000    
+ManPower 2.ScheduledUtilization             .27701    
+System.NumberOut                            637.00    
+
+Beginning replication 10 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 10 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            7.0557     (Insuf)    .00000     19.788         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         7.0557     (Insuf)    .00000     19.788         13    
+Entity 1.VATime                             4.8670     (Corr)     .29049     42.639        629    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        629    
+Entity 1.WaitTime                           50.380     (Corr)     .00000     1135.1        629    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        629    
+Entity 1.OtherTime                          2.3100     (Corr)     2.0000     8.0000        629    
+Entity 1.TotalTime                          57.557     (Corr)     2.3222     1185.7        629    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          7    
+Teller.Queue.WaitingTime                    4.0748     1.7113     .00000     25.480        703    
+Hold 1.Queue.WaitingTime                    324.83     (Insuf)    .45523     960.51         67    
+Manager.Queue.WaitingTime                   110.83     (Insuf)    .00000     319.81         67    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .02998     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                12.237     (Corr)     .00000     28.000     13.000    
+ManPower.NumberBusy                         .68588     .07896     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .68588     .07896     .00000     1.0000     1.0000    
+system down.NumberBusy                      .02998     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .02998     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .33034     (Insuf)    .00000     1.0000     1.0000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .33034     (Insuf)    .00000     1.0000     1.0000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .94348     .42333     .00000     8.0000     5.0000    
+Hold 1.Queue.NumberInQueue                  7.3677     (Insuf)    .00000     22.000     6.0000    
+Manager.Queue.NumberInQueue                 2.4268     (Insuf)    .00000     21.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        642  Infinite
+Record 2                                         66  Infinite
+Record 3                                          7  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           642.00    
+Entity 1.NumberOut                          629.00    
+ManPower.NumberSeized                       703.00    
+ManPower.ScheduledUtilization               .68588    
+system down.NumberSeized                    7.0000    
+system down.ScheduledUtilization            .02998    
+ManPower 2.NumberSeized                     67.000    
+ManPower 2.ScheduledUtilization             .33034    
+System.NumberOut                            642.00    
+
+Beginning replication 11 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 11 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            7.2822     (Insuf)    .00000     16.135         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         7.2822     (Insuf)    .00000     16.135         13    
+Entity 1.VATime                             4.3889     .65221     .18014     40.394        600    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        600    
+Entity 1.WaitTime                           28.162     (Corr)     .00000     749.85        600    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        600    
+Entity 1.OtherTime                          2.2250     .10067     2.0000     8.0000        600    
+Entity 1.TotalTime                          34.776     (Corr)     2.1801     797.33        600    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          8    
+Teller.Queue.WaitingTime                    3.9141     1.1853     .00000     23.232        646    
+Hold 1.Queue.WaitingTime                    266.07     (Insuf)    .61603     661.94         45    
+Manager.Queue.WaitingTime                   53.236     (Insuf)    .00000     174.66         45    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .03094     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                6.8193     (Corr)     .00000     16.000     1.0000    
+ManPower.NumberBusy                         .62790     .06133     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .62790     .06133     .00000     1.0000     1.0000    
+system down.NumberBusy                      .03094     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .03094     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .23277     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .23277     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .82632     .35435     .00000     8.0000     .00000    
+Hold 1.Queue.NumberInQueue                  3.9128     (Insuf)    .00000     12.000     .00000    
+Manager.Queue.NumberInQueue                 .78289     (Insuf)    .00000     11.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        601  Infinite
+Record 2                                         45  Infinite
+Record 3                                          8  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           601.00    
+Entity 1.NumberOut                          600.00    
+ManPower.NumberSeized                       646.00    
+ManPower.ScheduledUtilization               .62790    
+system down.NumberSeized                    8.0000    
+system down.ScheduledUtilization            .03094    
+ManPower 2.NumberSeized                     45.000    
+ManPower 2.ScheduledUtilization             .23277    
+System.NumberOut                            613.00    
+
+Beginning replication 12 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 12 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            5.4573     (Insuf)    .00000     17.799         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         5.4573     (Insuf)    .00000     17.799         13    
+Entity 1.VATime                             4.6409     (Corr)     .25970     43.392        628    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        628    
+Entity 1.WaitTime                           52.306     (Corr)     .00000     1954.3        628    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        628    
+Entity 1.OtherTime                          2.2627     (Corr)     2.0000     8.0000        628    
+Entity 1.TotalTime                          59.210     (Corr)     2.2597     2002.6        628    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          5    
+Teller.Queue.WaitingTime                    4.0080     1.4825     .00000     24.497        706    
+Hold 1.Queue.WaitingTime                    416.79     (Insuf)    .91150     984.79         75    
+Manager.Queue.WaitingTime                   117.68     (Insuf)    .00000     306.61         56    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .02318     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                15.967     (Corr)     .00000     36.000     23.000    
+ManPower.NumberBusy                         .69812     .07126     .00000     1.0000     .00000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .69812     .07126     .00000     1.0000     .00000    
+system down.NumberBusy                      .02318     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .02318     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .28041     (Insuf)    .00000     1.0000     1.0000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .28041     (Insuf)    .00000     1.0000     1.0000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .92473     .48166     .00000     8.0000     .00000    
+Hold 1.Queue.NumberInQueue                  10.309     (Insuf)    .00000     31.000     3.0000    
+Manager.Queue.NumberInQueue                 3.2713     (Insuf)    .00000     30.000     19.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        651  Infinite
+Record 2                                         55  Infinite
+Record 3                                          5  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           651.00    
+Entity 1.NumberOut                          628.00    
+ManPower.NumberSeized                       706.00    
+ManPower.ScheduledUtilization               .69812    
+system down.NumberSeized                    5.0000    
+system down.ScheduledUtilization            .02318    
+ManPower 2.NumberSeized                     56.000    
+ManPower 2.ScheduledUtilization             .28041    
+System.NumberOut                            641.00    
+
+Beginning replication 13 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 13 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            10.707     (Insuf)    .00000     19.795         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         10.707     (Insuf)    .00000     19.795         13    
+Entity 1.VATime                             4.8723     .74266     .00000     45.743        590    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        590    
+Entity 1.WaitTime                           33.176     (Corr)     .00000     725.64        590    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        590    
+Entity 1.OtherTime                          2.3050     .11917     2.0000     8.0000        590    
+Entity 1.TotalTime                          40.354     (Corr)     2.2459     752.76        590    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          9    
+Teller.Queue.WaitingTime                    2.8800     1.7446     .00000     28.197        658    
+Hold 1.Queue.WaitingTime                    227.66     (Insuf)    10.847     716.09         61    
+Manager.Queue.WaitingTime                   65.045     (Insuf)    .00000     216.43         61    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .04549     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                8.0595     (Corr)     .00000     19.000     7.0000    
+ManPower.NumberBusy                         .64062     .04762     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .64062     .04762     .00000     1.0000     1.0000    
+system down.NumberBusy                      .04549     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .04549     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .31219     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .31219     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .61930     .41811     .00000     10.000     .00000    
+Hold 1.Queue.NumberInQueue                  4.7401     (Insuf)    .00000     15.000     6.0000    
+Manager.Queue.NumberInQueue                 1.2966     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        597  Infinite
+Record 2                                         61  Infinite
+Record 3                                          9  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           597.00    
+Entity 1.NumberOut                          590.00    
+ManPower.NumberSeized                       658.00    
+ManPower.ScheduledUtilization               .64062    
+system down.NumberSeized                    9.0000    
+system down.ScheduledUtilization            .04549    
+ManPower 2.NumberSeized                     61.000    
+ManPower 2.ScheduledUtilization             .31219    
+System.NumberOut                            603.00    
+
+Beginning replication 14 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 14 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            4.2209     (Insuf)    .00000     17.663         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         4.2209     (Insuf)    .00000     17.663         13    
+Entity 1.VATime                             4.8428     (Corr)     .00000     44.258        613    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        613    
+Entity 1.WaitTime                           68.252     (Corr)     .00000     1592.3        613    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        613    
+Entity 1.OtherTime                          2.2838     (Corr)     2.0000     8.0000        613    
+Entity 1.TotalTime                          75.379     (Corr)     2.0000     1642.3        613    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          4    
+Teller.Queue.WaitingTime                    4.1904     1.9992     .00000     38.091        685    
+Hold 1.Queue.WaitingTime                    460.82     (Insuf)    4.0249     1403.8         67    
+Manager.Queue.WaitingTime                   167.86     (Insuf)    .00000     491.97         64    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .01793     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                16.287     (Corr)     .00000     35.000     10.000    
+ManPower.NumberBusy                         .68064     .06147     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .68064     .06147     .00000     1.0000     1.0000    
+system down.NumberBusy                      .01793     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .01793     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .32925     (Insuf)    .00000     1.0000     1.0000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .32925     (Insuf)    .00000     1.0000     1.0000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .93806     (Corr)     .00000     11.000     .00000    
+Hold 1.Queue.NumberInQueue                  10.205     (Insuf)    .00000     32.000     4.0000    
+Manager.Queue.NumberInQueue                 3.6637     (Insuf)    .00000     31.000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        622  Infinite
+Record 2                                         63  Infinite
+Record 3                                          4  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           623.00    
+Entity 1.NumberOut                          613.00    
+ManPower.NumberSeized                       685.00    
+ManPower.ScheduledUtilization               .68064    
+system down.NumberSeized                    4.0000    
+system down.ScheduledUtilization            .01793    
+ManPower 2.NumberSeized                     64.000    
+ManPower 2.ScheduledUtilization             .32925    
+System.NumberOut                            626.00    
+
+Beginning replication 15 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 15 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            3.0084     (Insuf)    .00000     18.518         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         3.0084     (Insuf)    .00000     18.518         13    
+Entity 1.VATime                             3.7680     (Corr)     .00000     38.197        567    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        567    
+Entity 1.WaitTime                           16.838     (Corr)     .00000     597.79        567    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        567    
+Entity 1.OtherTime                          2.1216     (Corr)     2.0000     8.0000        567    
+Entity 1.TotalTime                          22.728     (Corr)     2.5093     625.14        567    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          3    
+Teller.Queue.WaitingTime                    3.8896     (Corr)     .00000     33.514        622    
+Hold 1.Queue.WaitingTime                    247.43     (Insuf)    11.932     587.28         23    
+Manager.Queue.WaitingTime                   65.103     (Insuf)    .00000     170.05         23    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .01278     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                13.565     (Corr)     .00000     36.000     32.000    
+ManPower.NumberBusy                         .61183     .06266     .00000     1.0000     .00000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .61183     .06266     .00000     1.0000     .00000    
+system down.NumberBusy                      .01278     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .01278     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .11695     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .11695     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .79065     .63628     .00000     13.000     .00000    
+Hold 1.Queue.NumberInQueue                  11.137     (Insuf)    .00000     32.000     32.000    
+Manager.Queue.NumberInQueue                 .48934     (Insuf)    .00000     11.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        599  Infinite
+Record 2                                         23  Infinite
+Record 3                                          3  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           599.00    
+Entity 1.NumberOut                          567.00    
+ManPower.NumberSeized                       622.00    
+ManPower.ScheduledUtilization               .61183    
+system down.NumberSeized                    3.0000    
+system down.ScheduledUtilization            .01278    
+ManPower 2.NumberSeized                     23.000    
+ManPower 2.ScheduledUtilization             .11695    
+System.NumberOut                            580.00    
+
+Beginning replication 16 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 16 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            6.0268     (Insuf)    .00000     19.780         14    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         14    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         14    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         14    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         14    
+breakdown.TotalTime                         6.0268     (Insuf)    .00000     19.780         14    
+Entity 1.VATime                             4.4963     (Corr)     .03718     40.781        608    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        608    
+Entity 1.WaitTime                           32.309     (Corr)     .00000     1115.8        608    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        608    
+Entity 1.OtherTime                          2.2368     (Corr)     2.0000     8.0000        608    
+Entity 1.TotalTime                          39.042     (Corr)     2.5414     1157.2        608    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          7    
+Teller.Queue.WaitingTime                    3.3477     (Corr)     .00000     28.610        666    
+Hold 1.Queue.WaitingTime                    282.19     (Insuf)    1.6167     898.19         50    
+Manager.Queue.WaitingTime                   78.365     (Insuf)    .00000     221.66         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .02757     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                8.3038     (Corr)     .00000     21.000     8.0000    
+ManPower.NumberBusy                         .66128     .06403     .00000     1.0000     .00000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .66128     .06403     .00000     1.0000     .00000    
+system down.NumberBusy                      .02757     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .02757     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .25409     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .25409     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .72862     .36102     .00000     9.0000     .00000    
+Hold 1.Queue.NumberInQueue                  4.9264     (Insuf)    .00000     15.000     8.0000    
+Manager.Queue.NumberInQueue                 1.2804     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        616  Infinite
+Record 2                                         50  Infinite
+Record 3                                          7  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          14.000    
+breakdown.NumberOut                         14.000    
+Entity 1.NumberIn                           616.00    
+Entity 1.NumberOut                          608.00    
+ManPower.NumberSeized                       666.00    
+ManPower.ScheduledUtilization               .66128    
+system down.NumberSeized                    7.0000    
+system down.ScheduledUtilization            .02757    
+ManPower 2.NumberSeized                     50.000    
+ManPower 2.ScheduledUtilization             .25409    
+System.NumberOut                            622.00    
+
+Beginning replication 17 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 17 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            8.8811     (Insuf)    .00000     18.204         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         8.8811     (Insuf)    .00000     18.204         13    
+Entity 1.VATime                             4.5021     .83196     .09010     44.672        566    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        566    
+Entity 1.WaitTime                           27.455     (Corr)     .00000     882.52        566    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        566    
+Entity 1.OtherTime                          2.2491     .12734     2.0000     8.0000        566    
+Entity 1.TotalTime                          34.206     (Corr)     2.4579     935.19        566    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          8    
+Teller.Queue.WaitingTime                    2.4086     (Corr)     .00000     18.477        630    
+Hold 1.Queue.WaitingTime                    214.87     (Insuf)    1.8077     697.68         48    
+Manager.Queue.WaitingTime                   83.994     (Insuf)    .00000     283.52         48    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .03773     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                8.4671     (Corr)     .00000     23.000     18.000    
+ManPower.NumberBusy                         .61422     .06584     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .61422     .06584     .00000     1.0000     1.0000    
+system down.NumberBusy                      .03773     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .03773     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .24039     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .24039     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .49714     .22539     .00000     7.0000     1.0000    
+Hold 1.Queue.NumberInQueue                  5.3676     (Insuf)    .00000     20.000     15.000    
+Manager.Queue.NumberInQueue                 1.3175     (Insuf)    .00000     19.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        583  Infinite
+Record 2                                         48  Infinite
+Record 3                                          8  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           584.00    
+Entity 1.NumberOut                          566.00    
+ManPower.NumberSeized                       630.00    
+ManPower.ScheduledUtilization               .61422    
+system down.NumberSeized                    8.0000    
+system down.ScheduledUtilization            .03773    
+ManPower 2.NumberSeized                     48.000    
+ManPower 2.ScheduledUtilization             .24039    
+System.NumberOut                            579.00    
+
+Beginning replication 18 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 18 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            7.3300     (Insuf)    .00000     19.498         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         7.3300     (Insuf)    .00000     19.498         13    
+Entity 1.VATime                             4.5677     .76792     .00000     45.960        592    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        592    
+Entity 1.WaitTime                           31.029     (Corr)     .00000     1059.0        592    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        592    
+Entity 1.OtherTime                          2.2483     .12227     2.0000     8.0000        592    
+Entity 1.TotalTime                          37.845     (Corr)     2.0000     1113.0        592    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          6    
+Teller.Queue.WaitingTime                    2.7840     (Corr)     .00000     20.588        653    
+Hold 1.Queue.WaitingTime                    264.38     (Insuf)    1.7361     675.49         50    
+Manager.Queue.WaitingTime                   74.439     (Insuf)    .00000     218.19         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .03114     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                8.2073     (Corr)     .00000     20.000     11.000    
+ManPower.NumberBusy                         .64238     .05140     .00000     1.0000     .00000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .64238     .05140     .00000     1.0000     .00000    
+system down.NumberBusy                      .03114     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .03114     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .25800     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .25800     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .59411     .30041     .00000     9.0000     .00000    
+Hold 1.Queue.NumberInQueue                  5.0515     (Insuf)    .00000     15.000     11.000    
+Manager.Queue.NumberInQueue                 1.2163     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        603  Infinite
+Record 2                                         50  Infinite
+Record 3                                          6  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           603.00    
+Entity 1.NumberOut                          592.00    
+ManPower.NumberSeized                       653.00    
+ManPower.ScheduledUtilization               .64238    
+system down.NumberSeized                    6.0000    
+system down.ScheduledUtilization            .03114    
+ManPower 2.NumberSeized                     50.000    
+ManPower 2.ScheduledUtilization             .25800    
+System.NumberOut                            605.00    
+
+Beginning replication 19 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 19 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            6.9083     (Insuf)    .00000     17.400         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         6.9083     (Insuf)    .00000     17.400         13    
+Entity 1.VATime                             5.1383     (Corr)     .00000     42.964        589    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        589    
+Entity 1.WaitTime                           57.473     (Corr)     .00000     1290.5        589    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        589    
+Entity 1.OtherTime                          2.3463     (Corr)     2.0000     8.0000        589    
+Entity 1.TotalTime                          64.957     (Corr)     2.5815     1340.7        589    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          7    
+Teller.Queue.WaitingTime                    3.3100     .92861     .00000     28.507        665    
+Hold 1.Queue.WaitingTime                    320.28     (Insuf)    5.9991     901.39         72    
+Manager.Queue.WaitingTime                   129.48     (Insuf)    .00000     400.12         72    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .02935     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                12.826     (Corr)     .00000     31.000     10.000    
+ManPower.NumberBusy                         .64640     (Corr)     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .64640     (Corr)     .00000     1.0000     1.0000    
+system down.NumberBusy                      .02935     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .02935     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .36696     (Insuf)    .00000     1.0000     1.0000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .36696     (Insuf)    .00000     1.0000     1.0000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .73139     (Corr)     .00000     9.0000     4.0000    
+Hold 1.Queue.NumberInQueue                  7.5751     (Insuf)    .00000     26.000     3.0000    
+Manager.Queue.NumberInQueue                 3.0467     (Insuf)    .00000     25.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        598  Infinite
+Record 2                                         71  Infinite
+Record 3                                          7  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           599.00    
+Entity 1.NumberOut                          589.00    
+ManPower.NumberSeized                       665.00    
+ManPower.ScheduledUtilization               .64640    
+system down.NumberSeized                    7.0000    
+system down.ScheduledUtilization            .02935    
+ManPower 2.NumberSeized                     72.000    
+ManPower 2.ScheduledUtilization             .36696    
+System.NumberOut                            602.00    
+
+Beginning replication 20 of 20
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 20 of 20
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+Replication ended at time      : 3060.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+breakdown.VATime                            5.4244     (Insuf)    .00000     18.702         13    
+breakdown.NVATime                           .00000     (Insuf)    .00000     .00000         13    
+breakdown.WaitTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.TranTime                          .00000     (Insuf)    .00000     .00000         13    
+breakdown.OtherTime                         .00000     (Insuf)    .00000     .00000         13    
+breakdown.TotalTime                         5.4244     (Insuf)    .00000     18.702         13    
+Entity 1.VATime                             4.6478     (Corr)     .00000     46.533        592    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        592    
+Entity 1.WaitTime                           78.733     (Corr)     .00000     1758.9        592    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        592    
+Entity 1.OtherTime                          2.2685     (Corr)     2.0000     8.0000        592    
+Entity 1.TotalTime                          85.650     (Corr)     2.4475     1808.9        592    
+system down1.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          5    
+Teller.Queue.WaitingTime                    3.2138     1.0088     .00000     22.154        654    
+Hold 1.Queue.WaitingTime                    640.45     (Insuf)    7.3145     1460.2         53    
+Manager.Queue.WaitingTime                   200.38     (Insuf)    .00000     481.85         53    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+breakdown.WIP                               .02304     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                17.058     (Corr)     .00000     36.000     12.000    
+ManPower.NumberBusy                         .63565     .05394     .00000     1.0000     1.0000    
+ManPower.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower.Utilization                        .63565     .05394     .00000     1.0000     1.0000    
+system down.NumberBusy                      .02304     (Insuf)    .00000     1.0000     .00000    
+system down.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+system down.Utilization                     .02304     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberBusy                       .27187     (Insuf)    .00000     1.0000     .00000    
+ManPower 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ManPower 2.Utilization                      .27187     (Insuf)    .00000     1.0000     .00000    
+system down1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Teller.Queue.NumberInQueue                  .68906     .28393     .00000     7.0000     3.0000    
+Hold 1.Queue.NumberInQueue                  11.544     (Insuf)    .00000     32.000     7.0000    
+Manager.Queue.NumberInQueue                 3.4707     (Insuf)    .00000     31.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                        604  Infinite
+Record 2                                         53  Infinite
+Record 3                                          5  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+breakdown.NumberIn                          13.000    
+breakdown.NumberOut                         13.000    
+Entity 1.NumberIn                           604.00    
+Entity 1.NumberOut                          592.00    
+ManPower.NumberSeized                       654.00    
+ManPower.ScheduledUtilization               .63565    
+system down.NumberSeized                    5.0000    
+system down.ScheduledUtilization            .02304    
+ManPower 2.NumberSeized                     53.000    
+ManPower 2.ScheduledUtilization             .27187    
+System.NumberOut                            605.00    
+
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                 Output Summary for 20 Replications
+
+Project: Unnamed Project                                             Run execution date : 2/ 8/2019
+Analyst: iit                                                         Model revision date: 2/ 8/2019
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+breakdown.NumberIn                          13.100     .14405     13.000     14.000     20
+breakdown.NumberOut                         13.100     .14405     13.000     14.000     20
+Entity 1.NumberIn                           614.95     11.580     575.00     663.00     20
+Entity 1.NumberOut                          603.05     11.424     566.00     651.00     20
+ManPower.NumberSeized                       669.20     12.941     622.00     717.00     20
+ManPower.ScheduledUtilization               .65433     .01207     .61183     .69812     20
+system down.NumberSeized                    6.3500     .80741     3.0000     9.0000     20
+system down.ScheduledUtilization            .02805     .00364     .01278     .04549     20
+ManPower 2.NumberSeized                     55.800     5.5325     23.000     74.000     20
+ManPower 2.ScheduledUtilization             .28514     .02792     .11695     .37331     20
+System.NumberOut                            616.15     11.478     579.00     665.00     20
+
+Simulation run time: 1.25 minutes.
+Simulation run complete.
