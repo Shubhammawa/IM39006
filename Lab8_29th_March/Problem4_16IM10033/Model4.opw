@@ -1,0 +1,16 @@
+[RESOURCES]
+Station1
+Station2
+Station3
+Station4
+[VARIABLES]
+Workstation2.NumberOut
+Workstation2.NumberIn
+Workstation4.NumberIn
+Workstation1.NumberOut
+Workstation4.NumberOut
+Workstation1.NumberIn
+Workstation3.NumberIn
+Workstation3.NumberOut
+End.NumberOut
+Part Arrival.NumberOut

@@ -1,0 +1,17 @@
+Fit All
+
+Document:  E:\16IM10033\Simulation Lab_16IM10033\Lab8\Input_Analyzer_Demo\Problem 1.txt
+Data File: E:\16IM10033\Simulation Lab_16IM10033\Lab8\Input_Analyzer_Demo\Problem 1.txt
+
+
+Function       Sq Error
+-----------------------
+Beta           0.0109
+Uniform        0.0289
+Weibull        0.0699
+Triangular     0.0768
+Exponential    0.0769
+Erlang         0.0769
+Normal         0.0775
+Gamma          0.0778
+Lognormal      0.13

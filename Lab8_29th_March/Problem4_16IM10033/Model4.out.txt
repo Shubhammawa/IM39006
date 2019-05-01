@@ -1,0 +1,71 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/29/2019
+Analyst: iit                                                         Model revision date: 3/29/2019
+
+Replication ended at time      : 10000.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             34.000     (Corr)     34.000     34.000       1000    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1000    
+Entity 1.WaitTime                           124.59     (Corr)     .00000     220.23       1000    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       1000    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1000    
+Entity 1.TotalTime                          158.59     (Corr)     34.000     254.23       1000    
+Workstation1.Queue.WaitingTime              25.322     (Corr)     .00000     108.25       1021    
+Workstation2.Queue.WaitingTime              10.236     3.7334     .00000     75.596       1019    
+Workstation3.Queue.WaitingTime              53.200     (Corr)     .00000     174.20       1006    
+Workstation4.Queue.WaitingTime              35.773     (Corr)     .00000     111.10       1001    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                16.073     (Corr)     .00000     26.000     21.000    
+Station1.NumberBusy                         .86740     .02585     .00000     1.0000     1.0000    
+Station1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Station1.Utilization                        .86740     .02585     .00000     1.0000     1.0000    
+Station2.NumberBusy                         .84540     .02744     .00000     1.0000     1.0000    
+Station2.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Station2.Utilization                        .84540     .02744     .00000     1.0000     1.0000    
+Station3.NumberBusy                         .86454     .02711     .00000     1.0000     1.0000    
+Station3.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Station3.Utilization                        .86454     .02711     .00000     1.0000     1.0000    
+Station4.NumberBusy                         .86007     .03462     .00000     1.0000     1.0000    
+Station4.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Station4.Utilization                        .86007     .03462     .00000     1.0000     1.0000    
+Workstation1.Queue.NumberInQueue            2.5854     (Corr)     .00000     12.000     .00000    
+Workstation2.Queue.NumberInQueue            1.0436     .36504     .00000     8.0000     1.0000    
+Workstation3.Queue.NumberInQueue            5.4201     (Corr)     .00000     18.000     12.000    
+Workstation4.Queue.NumberInQueue            3.5870     (Corr)     .00000     13.000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1021.0    
+Entity 1.NumberOut                          1000.0    
+Station1.NumberSeized                       1021.0    
+Station1.ScheduledUtilization               .86740    
+Station2.NumberSeized                       1019.0    
+Station2.ScheduledUtilization               .84540    
+Station3.NumberSeized                       1006.0    
+Station3.ScheduledUtilization               .86454    
+Station4.NumberSeized                       1001.0    
+Station4.ScheduledUtilization               .86007    
+System.NumberOut                            1000.0    
+
+
+Simulation run time: 0.05 minutes.
+Simulation run complete.

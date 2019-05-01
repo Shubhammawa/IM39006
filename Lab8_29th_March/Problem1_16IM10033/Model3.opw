@@ -1,0 +1,14 @@
+[RESOURCES]
+Nurse
+Examination Room
+[VARIABLES]
+Registration.NumberOut
+Registration.NumberIn
+Examination1.NumberIn
+Decide 1.NumberOut True
+Examination2.NumberOut
+Home.NumberOut
+Arrival.NumberOut
+Decide 1.NumberOut False
+Examination2.NumberIn
+Examination1.NumberOut

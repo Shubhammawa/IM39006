@@ -1,0 +1,13 @@
+[RESOURCES]
+Machine
+Human
+[VARIABLES]
+AutomaticMachine.NumberIn
+Type2.NumberOut
+Process_Type1.NumberOut
+Process_Type2.NumberIn
+Dispose 1.NumberOut
+Type1.NumberOut
+Process_Type1.NumberIn
+Process_Type2.NumberOut
+AutomaticMachine.NumberOut

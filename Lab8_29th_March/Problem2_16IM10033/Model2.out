@@ -1,0 +1,59 @@
+
+                                      ARENA Simulation Results
+                                      iit - License: 2957000990
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/29/2019
+Analyst: iit                                                         Model revision date: 3/29/2019
+
+Replication ended at time      : 5000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             12.145     .05939     7.9366     15.107        768    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        768    
+Entity 1.WaitTime                           19.834     5.1861     .00000     70.687        768    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        768    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        768    
+Entity 1.TotalTime                          31.979     5.1723     9.5027     83.126        768    
+Process_Type1.Queue.WaitingTime             16.925     4.7598     .00000     69.468        436    
+Process_Type2.Queue.WaitingTime             18.609     4.8878     .00000     69.852        334    
+AutomaticMachine.Queue.WaitingTime          2.2193     .82889     .00000     12.344        769    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.9477     (Corr)     .00000     15.000     8.0000    
+Machine.NumberBusy                          .91731     .02887     .00000     1.0000     1.0000    
+Machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine.Utilization                         .91731     .02887     .00000     1.0000     1.0000    
+Human.NumberBusy                            .95078     (Insuf)    .00000     1.0000     1.0000    
+Human.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Human.Utilization                           .95078     (Insuf)    .00000     1.0000     1.0000    
+Process_Type1.Queue.NumberInQueue           1.4894     (Corr)     .00000     7.0000     4.0000    
+Process_Type2.Queue.NumberInQueue           1.2489     (Corr)     .00000     7.0000     2.0000    
+AutomaticMachine.Queue.NumberInQueue        .34133     (Corr)     .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           776.00    
+Entity 1.NumberOut                          768.00    
+Machine.NumberSeized                        769.00    
+Machine.ScheduledUtilization                .91731    
+Human.NumberSeized                          770.00    
+Human.ScheduledUtilization                  .95078    
+System.NumberOut                            768.00    
+
+
+Simulation run time: 0.05 minutes.
+Simulation run complete.

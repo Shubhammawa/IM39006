@@ -1,0 +1,41 @@
+
+	Distribution Summary
+
+Distribution:	Beta         
+Expression:	6 + 94 * BETA(0.688, 0.621)
+Square Error:	0.010926
+
+Chi Square Test
+  Number of intervals	= 4
+  Degrees of freedom 	= 1
+  Test Statistic     	= 0.456
+  Corresponding p-value	= 0.5
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.098
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 30
+Min Data Value       	= 6
+Max Data Value       	= 99.7
+Sample Mean          	= 55.4
+Sample Std Dev       	= 30.9
+
+	Histogram Summary
+
+Histogram Range    	= 6 to 100
+Number of Intervals	= 5
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0     7       24.8      0.233      0.251      0.233      0.251
+   1     6       43.6      0.200      0.161      0.433      0.412
+   2     2       62.4     0.0667      0.155      0.500      0.567
+   3     6       81.2      0.200      0.170      0.700      0.738
+   4     9       100.      0.300      0.319       1.00       1.06
